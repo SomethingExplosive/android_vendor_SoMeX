@@ -16,6 +16,7 @@
 PRODUCT_PACKAGES := \
     Superuser \
     bootanimation_zip \
-    su_binary
+    su_binary \
+	AOSP_Email
     
     
