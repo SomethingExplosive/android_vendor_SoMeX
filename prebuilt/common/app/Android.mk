@@ -13,8 +13,8 @@
 
 # SuperSU binary
 
-include $(CLEAR_VARS)
 LOCAL_PATH:= $(call my-dir)
+include $(CLEAR_VARS)
 LOCAL_MODULE := SuperSU
 LOCAL_SRC_FILES := SuperSU/SuperSU.apk
 LOCAL_MODULE_CLASS := APPS
