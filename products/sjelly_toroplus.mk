@@ -25,9 +25,8 @@ $(call inherit-product, vendor/sjelly/config/common_full_phone.mk)
 $(call inherit-product, vendor/sjelly/config/cdma.mk)
 
 # Copy over toroplus files
-# This needs to be added still
-#PRODUCT_COPY_FILES += \
-#    device/samsung/toroplus/vold.fstab:system/etc/vold.fstab
+PRODUCT_COPY_FILES += \
+    device/samsung/toroplus/vold.fstab:system/etc/vold.fstab
 
 # toroplus overrides
 PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=mysidspr BUILD_DISPLAY_ID=JOP40D BUILD_FINGERPRINT="samsung/mysidspr/toroplus:4.2.1/JOP40D/L700GA02:user/release-keys" PRIVATE_BUILD_DESC="mysidspr-user 4.2.1 JOP40D L700GA02 release-keys"
