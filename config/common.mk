@@ -14,9 +14,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.software.sip.voip.xml:system/etc/permissions/android.software.sip.voip.xml
 
-# Copy over bootanimation.zip
+# Add prebuilts and scripts
 PRODUCT_COPY_FILES += \
-    vendor/sjelly/prebuilt/common/bootanimation/bootanimation.zip:system/media/bootanimation.zip
+    vendor/sjelly/prebuilt/common/bootanimation/bootanimation.zip:system/media/bootanimation.zip \
+    vendor/sjelly/prebuilt/common/xbin/su:system/xbin/su
 
 # Required SJelly packages
 PRODUCT_PACKAGES += \
