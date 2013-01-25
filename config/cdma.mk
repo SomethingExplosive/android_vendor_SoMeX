@@ -19,4 +19,4 @@
 
 # CDMA APN list
 PRODUCT_COPY_FILES += \
-    vendor/sjelly/prebuilt/etc/apns-conf-cdma.xml:system/etc/apns-conf.xml
+    vendor/sjelly/prebuilt/common/etc/apns-conf-cdma.xml:system/etc/apns-conf.xml
