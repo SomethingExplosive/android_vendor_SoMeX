@@ -23,9 +23,8 @@ $(call inherit-product, device/asus/grouper/full_grouper.mk)
 $(call inherit-product, vendor/sjelly/config/common_full_tablet_wifionly.mk)
 
 # Copy needed grouper files
-# This still needs to be added
-#PRODUCT_COPY_FILES += \
-#    device/asus/grouper/vold.fstab:system/etc/vold.fstab
+PRODUCT_COPY_FILES += \
+     device/asus/grouper/vold.fstab:system/etc/vold.fstab
 
 # Grouper overrides
 PRODUCT_PROPERTY_OVERRIDES += \
