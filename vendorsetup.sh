@@ -1,3 +1,4 @@
 add_lunch_combo sjelly_grouper-userdebug
 add_lunch_combo sjelly_tilapia-userdebug
 add_lunch_combo sjelly_toroplus-userdebug
+add_lunch_combo sjelly_manta-userdebug
