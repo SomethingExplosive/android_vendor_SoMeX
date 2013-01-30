@@ -1,0 +1,46 @@
+SomethingJelly
+==============
+
+Source(s) can be found at http://github.com/SomethingJelly
+
+CHANGELOG
+---------
+
+### 0.8
+* launcher: enable rotation by default
+* launcher: clean up default layout
+* sjelly: Updated SuperSU and su binary to v1.01
+* toroplus: Add missing vold.fstab file
+* grouper: Add missing vold.fstab file
+* grouper: Added USB OTG storage
+
+### 0.7
+* common: Bumped all devices to version 0.7
+* common: Added busybox to build
+* common: Enabled SIP phone capabilities
+* sjelly: Completely revamped how SomethingJelly source is implemented
+* settings: Fixed Clock settings FCes in Display/Daydream
+* settings: Added SomethingJelly version under About Phone/Tablet menu
+* toroplus: Implemented another MMS fix that should work this time
+* tilapia: Added USB OTG storage
+
+### 0.5
+* toroplus: Properly fixed tethering
+* toroplus: Patches for more connectivity fixes
+* toroplus: Removed CellBroadcastReceiver
+* toroplus: Added MMS capabilities (more than 160 characters in one message)
+* tilapia: Added APN configs
+* tilapia: Enabled tethering
+
+### 0.4
+* frameworks/base: Added CyanogenMod extended power menu
+* build: Fixes to build correct Email app
+
+### 0.3
+* frameworks/base: Preliminary extended power menu (CM one to be added)
+
+### 0.2
+* common: added boot animation
+* toroplus: fixed manufacturer name
+* toroplus: build.prop edits
+* grouper: fixed camera/rotation issues
