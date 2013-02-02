@@ -45,7 +45,7 @@ PRODUCT_PACKAGE_OVERLAYS += vendor/sjelly/overlay/common
 
 # Common SJelly ROM version
 PRODUCT_VERSION_MAJOR = 0
-PRODUCT_VERSION_MINOR = 8
+PRODUCT_VERSION_MINOR = 9
 PRODUCT_VERSION_MAINTENANCE = 0
 
 # Assemble SJelly build version

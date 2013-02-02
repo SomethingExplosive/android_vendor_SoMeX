@@ -6,6 +6,13 @@ Source(s) can be found at http://github.com/SomethingJelly
 CHANGELOG
 ---------
 
+### 0.9
+* common: Added support for Nexus 10 (manta)
+* launcher: fix powerwidget being on wrong screen
+* sjelly: Updated Super SU and su binary to v1.02
+* manta: added USB OTG support
+* toroplus: device.mk fixes from Sprint OTA (mwielgosz)
+
 ### 0.8
 * launcher: enable rotation by default
 * launcher: clean up default layout
