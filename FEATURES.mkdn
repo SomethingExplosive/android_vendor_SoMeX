@@ -1,0 +1,18 @@
+SomethingJelly 4.2.1
+====================
+
+Features
+--------
+* Built straight off the AOSP servers, 4.2.1 source
+* SuperSu v1.04 and su binaries
+* Busybox support
+* Wireless and USB tethering
+* Customized/Cleaned Home screen
+* Extended Power Menu (cyanogenmod)
+* Stock AOSP Email
+* Lean and Mean!
+
+To be added
+-----------
+* init.d support
+* CyanogenMod Quick Settings Toggles
