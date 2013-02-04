@@ -7,6 +7,7 @@ Features
 * SuperSu v1.04 and su binaries
 * Busybox support
 * Wireless and USB tethering
+* SIP phone support
 * Customized/Cleaned Home screen
 * Extended Power Menu (cyanogenmod)
 * Stock AOSP Email
