@@ -11,9 +11,10 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+LOCAL_PATH := $(call my-dir)
+
 # SuperSU binary
 
-LOCAL_PATH:= $(call my-dir)
 include $(CLEAR_VARS)
 LOCAL_MODULE := SuperSU
 LOCAL_SRC_FILES := SuperSU.apk
@@ -25,7 +26,6 @@ include $(BUILD_PREBUILT)
 
 # SuperSU NoNag binary
 
-LOCAL_PATH:= $(call my-dir)
 include $(CLEAR_VARS)
 LOCAL_MODULE := SuperSUNoNag
 LOCAL_SRC_FILES := SuperSUNoNag.apk
