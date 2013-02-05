@@ -24,6 +24,7 @@ PRODUCT_PACKAGES += \
     Camera \
     LatinIME \
     SuperSU \
+    SuperSUNoNag \
     busybox
 
 # Optional SJelly packages
