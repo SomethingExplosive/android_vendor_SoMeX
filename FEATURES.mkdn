@@ -3,7 +3,7 @@ SomethingJelly 4.2.1
 
 Features
 --------
-* Built straight off the AOSP servers, 4.2.1 source
+* Built straight off the AOSP servers, 4.2.1_r1.2 source
 * SuperSu v1.04 and su binaries
 * Busybox support
 * Wireless and USB tethering
