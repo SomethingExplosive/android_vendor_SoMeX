@@ -29,7 +29,7 @@ PRODUCT_COPY_FILES += \
     device/samsung/toroplus/vold.fstab:system/etc/vold.fstab
 
 # toroplus overrides
-PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=mysidspr BUILD_DISPLAY_ID=JOP40G BUILD_FINGERPRINT="samsung/mysidspr/toroplus:4.2.1/JOP40G/L700GA02:user/release-keys" PRIVATE_BUILD_DESC="mysidspr-user 4.2.1 JOP40G L700GA02 release-keys"
+PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=mysidspr BUILD_DISPLAY_ID=JDQ39 BUILD_FINGERPRINT="samsung/mysidspr/toroplus:4.2.2/JDQ39/L700GA02:user/release-keys" PRIVATE_BUILD_DESC="mysidspr-user 4.2.2 JDQ39 L700GA02 release-keys"
 
 # Set those variables here to overwrite the inherited values.
 PRODUCT_NAME := sjelly_toroplus

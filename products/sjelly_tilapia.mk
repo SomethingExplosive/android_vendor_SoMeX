@@ -36,7 +36,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
      ro.camera.res=5MP
 
 #Set build fingerprint / ID / Product Name etc.
-PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=nakasig BUILD_FINGERPRINT="google/nakasig/tilapia:4.2.1/JOP40G/533553:user/release-keys" PRIVATE_BUILD_DESC="nakasig-user 4.2.1 JOP40G 533553 release-keys
+PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=nakasig BUILD_FINGERPRINT="google/nakasig/tilapia:4.2.2/JDQ39/533553:user/release-keys" PRIVATE_BUILD_DESC="nakasig-user 4.2.2 JDQ39 533553 release-keys
 
 # Set correct product information
 PRODUCT_NAME := sjelly_tilapia
