@@ -6,6 +6,10 @@ Source(s) can be found at http://github.com/SomethingJelly
 CHANGELOG
 ---------
 
+### 0.9.9
+* common: Updated to android-4.2.2_r1
+* QuickSettings: WiFi and Bluetooth now toggle on-click
+
 ### 0.9.5
 * common: Updated to build from android-4.2.1_r1.2
 * sjelly: Update SuperSU and su binary to v1.04
