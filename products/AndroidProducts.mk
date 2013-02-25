@@ -17,7 +17,7 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/somex_grouper.mk \
-    $(LOCAL_DIR)/somex_tilapia.mk \
-    $(LOCAL_DIR)/somex_toroplus.mk \
-    $(LOCAL_DIR)/somex_manta.mk
+    $(LOCAL_DIR)/SoMeX_grouper.mk \
+    $(LOCAL_DIR)/SoMeX_tilapia.mk \
+    $(LOCAL_DIR)/SoMeX_toroplus.mk \
+    $(LOCAL_DIR)/SoMeX_manta.mk

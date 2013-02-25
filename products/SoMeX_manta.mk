@@ -25,7 +25,7 @@ $(call inherit-product, vendor/SoMeX/config/common_full_tablet_wifionly.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := manta
-PRODUCT_NAME := somex_manta
+PRODUCT_NAME := SoMeX_manta
 PRODUCT_BRAND := Google
 PRODUCT_MODEL := Nexus 10
 PRODUCT_MANUFACTURER := Samsung
