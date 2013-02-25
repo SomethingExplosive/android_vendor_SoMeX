@@ -1,4 +1,4 @@
-# Copyright (C) 2013 The SomethingJelly Project
+# Copyright (C) 2013 The SomethingExplosive Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -13,7 +13,7 @@
 # limitations under the License.
 
 #
-# This file is the build configuration for a full SomethingJelly
+# This file is the build configuration for a full SomethingExplosive
 # build for manta hardware.
 #
 
@@ -21,11 +21,11 @@
 $(call inherit-product, device/samsung/manta/full_manta.mk)
 
 # Inherit commons
-$(call inherit-product, vendor/sjelly/config/common_full_tablet_wifionly.mk)
+$(call inherit-product, vendor/SoMeX/config/common_full_tablet_wifionly.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := manta
-PRODUCT_NAME := sjelly_manta
+PRODUCT_NAME := somex_manta
 PRODUCT_BRAND := Google
 PRODUCT_MODEL := Nexus 10
 PRODUCT_MANUFACTURER := Samsung

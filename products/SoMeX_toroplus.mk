@@ -1,4 +1,4 @@
-# Copyright (C) 2013 The SomethingJelly Project
+# Copyright (C) 2013 The SomethingExplosive Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -13,16 +13,16 @@
 # limitations under the License.
 
 #
-# This file is the build configuration for a full SomethingJelly
+# This file is the build configuration for a full SomethingExplosive
 # build for toroplus hardware.
 #
 
 # Inherit from those products
 $(call inherit-product, device/samsung/toroplus/full_toroplus.mk)
 # Inherit common phone settings
-$(call inherit-product, vendor/sjelly/config/common_full_phone.mk)
+$(call inherit-product, vendor/SoMeX/config/common_full_phone.mk)
 # Inherit common CDMA settings
-$(call inherit-product, vendor/sjelly/config/cdma.mk)
+$(call inherit-product, vendor/SoMeX/config/cdma.mk)
 
 # Copy over toroplus files
 PRODUCT_COPY_FILES += \
@@ -32,7 +32,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=mysidspr BUILD_DISPLAY_ID=JDQ39 BUILD_FINGERPRINT="samsung/mysidspr/toroplus:4.2.2/JDQ39/L700GA02:user/release-keys" PRIVATE_BUILD_DESC="mysidspr-user 4.2.2 JDQ39 L700GA02 release-keys"
 
 # Set those variables here to overwrite the inherited values.
-PRODUCT_NAME := sjelly_toroplus
+PRODUCT_NAME := SoMeX_toroplus
 PRODUCT_DEVICE := toroplus
 PRODUCT_BRAND := Google
 PRODUCT_MODEL := Galaxy Nexus

@@ -1,5 +1,5 @@
-SomethingJelly 4.2.2
-====================
+SomethingExplosive 4.2.2
+========================
 
 Features
 --------
