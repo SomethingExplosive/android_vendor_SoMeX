@@ -33,10 +33,10 @@ PRODUCT_COPY_FILES += \
 
 # Add prebuilts and scripts
 PRODUCT_COPY_FILES += \
-    vendor/sjelly/prebuilt/common/bootanimation/bootanimation.zip:system/media/bootanimation.zip \
-    vendor/sjelly/prebuilt/common/xbin/su:system/xbin/su
+    vendor/SoMeX/prebuilt/common/bootanimation/bootanimation.zip:system/media/bootanimation.zip \
+    vendor/SoMeX/prebuilt/common/xbin/su:system/xbin/su
 
-# Required SJelly packages
+# Required SoMeX packages
 PRODUCT_PACKAGES += \
     Camera \
     LatinIME \
@@ -44,7 +44,7 @@ PRODUCT_PACKAGES += \
     SuperSUNoNag \
     busybox
 
-# Optional SJelly packages
+# Optional SoMeX packages
 PRODUCT_PACKAGES += \
     VideoEditor \
     VoiceDialer \
@@ -58,15 +58,15 @@ PRODUCT_PACKAGES += \
     VisualizationWallpapers \
     PhaseBeam
 
-# Common SJelly overlay
-PRODUCT_PACKAGE_OVERLAYS += vendor/sjelly/overlay/common
+# Common SoMeX overlay
+PRODUCT_PACKAGE_OVERLAYS += vendor/SoMeX/overlay/common
 
-# Common SJelly ROM version
+# Common SoMeX ROM version
 PRODUCT_VERSION_MAJOR = 0
 PRODUCT_VERSION_MINOR = 9
 PRODUCT_VERSION_MAINTENANCE = 9
 
-# Assemble SJelly build version
+# Assemble SoMeX build version
 BUILD_VERSION = $(PRODUCT_VERSION_MAJOR).$(PRODUCT_VERSION_MINOR).$(PRODUCT_VERSION_MAINTENANCE)
 
 # Set MOD and ROM versions

@@ -17,8 +17,8 @@
 # device.
 #
 
-# Inherit SJelly common file
-$(call inherit-product, vendor/sjelly/config/common.mk)
+# Inherit SoMeX common file
+$(call inherit-product, vendor/SoMeX/config/common.mk)
 
 # BT config
 PRODUCT_COPY_FILES += \
