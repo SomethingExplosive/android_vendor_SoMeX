@@ -9,7 +9,11 @@ CHANGELOG
 ### 1.0.0
 * common: Name change to SoMeX (SomethingExplosive)
 * common: Bugfixes and source additions (binary extraction scripts)
+* common: Add toro to builds
+* SoMeX: Updated SuperSU and su binaries to v1.10
 * toroplus: Updated proprietary binaries to match 4.2.1 OTA
+* toroplus: lots of bugfixes
+* toro: AOSP bugfixes
 * grouper: add support for 720p recording
 * grouper: properly enable USB tethering
 * grouper: add rndis support for USB tethering

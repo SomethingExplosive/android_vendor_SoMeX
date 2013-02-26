@@ -4,16 +4,13 @@ SomethingExplosive 4.2.2
 Features
 --------
 * Built straight off the AOSP servers, 4.2.2_r1 source
-* SuperSu v1.04 and su binaries
+* SuperSu v1.10 and su binaries
 * Busybox support
 * Wireless and USB tethering
 * SIP phone support
 * Customized/Cleaned Home screen
 * Extended Power Menu (CyanogenMod)
 * Customized QuickSettings Toggles (WiFi and Bluetooth) (something15525)
+* 720p video recording (grouper)
 * Stock AOSP Email
 * Lean and Mean!
-
-To be added
------------
-* init.d support
