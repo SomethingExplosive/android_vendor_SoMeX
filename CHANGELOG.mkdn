@@ -6,6 +6,14 @@ Source(s) can be found at http://github.com/SomethingExplosive
 CHANGELOG
 ---------
 
+### 1.0.1
+* common: add missing 4.2.2 repositories (now fully building from 4.2.2 source)
+* common: add maguro to builds
+* tuna: OTG storage fix
+* tuna: more bugfixes and optimizations
+* toro: AOSP corrections, cleanup
+* maguro: enable auto backlight by default
+
 ### 1.0.0
 * common: Name change to SoMeX (SomethingExplosive)
 * common: Bugfixes and source additions (binary extraction scripts)
