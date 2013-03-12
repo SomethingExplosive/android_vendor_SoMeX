@@ -21,8 +21,6 @@
 $(call inherit-product, device/samsung/maguro/full_maguro.mk)
 # Inherit common phone settings
 $(call inherit-product, vendor/SoMeX/config/common_full_phone.mk)
-# Inherit GSM common settings
-$(call inherit-product, vendor/SoMeX/config/gsm.mk)
 
 # Copy over maguro files
 PRODUCT_COPY_FILES += \
