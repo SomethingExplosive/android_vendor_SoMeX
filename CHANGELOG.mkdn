@@ -9,6 +9,7 @@ CHANGELOG
 ### 1.0.1
 * common: add missing 4.2.2 repositories (now fully building from 4.2.2 source)
 * common: add maguro to builds
+* common: lots of devices fixes and addons (check source)
 * tuna: OTG storage fix
 * tuna: more bugfixes and optimizations
 * toro: AOSP corrections, cleanup
