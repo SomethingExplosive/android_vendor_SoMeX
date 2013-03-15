@@ -22,4 +22,5 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/SoMeX_toro.mk \
     $(LOCAL_DIR)/SoMeX_toroplus.mk \
     $(LOCAL_DIR)/SoMeX_maguro.mk \
+    $(LOCAL_DIR)/SoMeX_mako.mk \
     $(LOCAL_DIR)/SoMeX_manta.mk
