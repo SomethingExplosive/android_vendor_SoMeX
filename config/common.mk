@@ -58,7 +58,8 @@ PRODUCT_PACKAGES += \
     LiveWallpapers \
     LiveWallpapersPicker \
     VisualizationWallpapers \
-    PhaseBeam
+    PhaseBeam \
+    GooManager
 
 # Common SoMeX overlay
 PRODUCT_PACKAGE_OVERLAYS += vendor/SoMeX/overlay/common
