@@ -17,14 +17,14 @@
 # build for tilapia hardware.
 #
 
-# Inherit from those products
-$(call inherit-product, device/asus/tilapia/full_tilapia.mk)
-
 # Inherit commons
 $(call inherit-product, vendor/SoMeX/config/common_full_tablet_wifionly.mk)
 
 # Inherit common GSM settings
 $(call inherit-product, vendor/SoMeX/config/gsm.mk)
+
+# Inherit from those products
+$(call inherit-product, device/asus/tilapia/full_tilapia.mk)
 
 # Copy needed tilapia files
 # This still needs to be added

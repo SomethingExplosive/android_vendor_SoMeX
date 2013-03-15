@@ -17,10 +17,11 @@
 # build for maguro hardware.
 #
 
-# Inherit from those products
-$(call inherit-product, device/samsung/maguro/full_maguro.mk)
 # Inherit common phone settings
 $(call inherit-product, vendor/SoMeX/config/common_full_phone.mk)
+
+# Inherit from those products
+$(call inherit-product, device/samsung/maguro/full_maguro.mk)
 
 # Copy over maguro files
 PRODUCT_COPY_FILES += \

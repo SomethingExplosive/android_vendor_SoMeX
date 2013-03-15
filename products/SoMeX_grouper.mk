@@ -17,10 +17,11 @@
 # build for grouper hardware.
 #
 
-# Inherit from those products
-$(call inherit-product, device/asus/grouper/full_grouper.mk)
 # Inherit commons
 $(call inherit-product, vendor/SoMeX/config/common_full_tablet_wifionly.mk)
+
+# Inherit from those products
+$(call inherit-product, device/asus/grouper/full_grouper.mk)
 
 # Copy needed grouper files
 PRODUCT_COPY_FILES += \

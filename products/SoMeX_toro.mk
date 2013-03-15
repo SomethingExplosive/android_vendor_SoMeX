@@ -17,10 +17,11 @@
 # build for toro hardware.
 #
 
-# Inherit from those products
-$(call inherit-product, device/samsung/toro/full_toro.mk)
 # Inherit common phone settings
 $(call inherit-product, vendor/SoMeX/config/common_full_phone.mk)
+
+# Inherit from those products
+$(call inherit-product, device/samsung/toro/full_toro.mk)
 
 # Copy over toro files
 PRODUCT_COPY_FILES += \

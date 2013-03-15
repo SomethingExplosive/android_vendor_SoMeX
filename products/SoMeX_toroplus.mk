@@ -17,12 +17,14 @@
 # build for toroplus hardware.
 #
 
-# Inherit from those products
-$(call inherit-product, device/samsung/toroplus/full_toroplus.mk)
 # Inherit common phone settings
 $(call inherit-product, vendor/SoMeX/config/common_full_phone.mk)
+
 # Inherit common CDMA settings
 $(call inherit-product, vendor/SoMeX/config/cdma.mk)
+
+# Inherit from those products
+$(call inherit-product, device/samsung/toroplus/full_toroplus.mk)
 
 # Copy over toroplus files
 PRODUCT_COPY_FILES += \

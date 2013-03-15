@@ -17,11 +17,11 @@
 # build for manta hardware.
 #
 
-# Inherit device configuration
-$(call inherit-product, device/samsung/manta/full_manta.mk)
-
 # Inherit commons
 $(call inherit-product, vendor/SoMeX/config/common_full_tablet_wifionly.mk)
+
+# Inherit device configuration
+$(call inherit-product, device/samsung/manta/full_manta.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := manta
