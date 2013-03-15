@@ -69,10 +69,13 @@ PRODUCT_VERSION_MAINTENANCE = 1
 # Assemble SoMeX build version
 BUILD_VERSION = $(PRODUCT_VERSION_MAJOR).$(PRODUCT_VERSION_MINOR).$(PRODUCT_VERSION_MAINTENANCE)
 
-# Set MOD and ROM versions
+# Set MOD and ROM versions, goo.im stuff
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.modversion=SomethingExplosive-$(BUILD_VERSION) \
     ro.romversion=$(BUILD_VERSION)
+    ro.goo.developerid=something15525 \
+    ro.goo.rom=SoMeX \
+    ro.goo.version=$(shell date +%s)
 
 # Default ringtones
 PRODUCT_PROPERTY_OVERRIDES += \
