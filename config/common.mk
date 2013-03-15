@@ -35,6 +35,8 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/SoMeX/prebuilt/common/bootanimation/bootanimation.zip:system/media/bootanimation.zip \
     vendor/SoMeX/prebuilt/common/xbin/su:system/xbin/su
+    vendor/SoMeX/prebuilt/common/media/LMprec_508.emd:system/media/LMprec_508.emd \
+    vendor/SoMeX/prebuilt/common/media/PFFprec_600.emd:system/media/PFFprec_600.emd
 
 # Required SoMeX packages
 PRODUCT_PACKAGES += \
