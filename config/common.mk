@@ -15,6 +15,9 @@
 # This file provides the build settings/overrides/overlays for all devices.
 #
 
+SUPERUSER_EMBEDDED := true
+SUPERUSER_PACKAGE_PREFIX := com.android.settings.cyanogenmod.superuser
+
 PRODUCT_BUILD_PROP_OVERRIDES += BUILD_UTC_DATE=0
 
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -34,7 +37,6 @@ PRODUCT_COPY_FILES += \
 # Add prebuilts and scripts
 PRODUCT_COPY_FILES += \
     vendor/SoMeX/prebuilt/common/bootanimation/bootanimation.zip:system/media/bootanimation.zip \
-    vendor/SoMeX/prebuilt/common/xbin/su:system/xbin/su \
     vendor/SoMeX/prebuilt/common/media/LMprec_508.emd:system/media/LMprec_508.emd \
     vendor/SoMeX/prebuilt/common/media/PFFprec_600.emd:system/media/PFFprec_600.emd
 
@@ -42,8 +44,8 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     Camera \
     LatinIME \
-    SuperSU \
-    SuperSUNoNag \
+    Superuser \
+    su \
     busybox
 
 # Optional SoMeX packages
