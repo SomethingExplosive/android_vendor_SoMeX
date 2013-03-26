@@ -4,7 +4,7 @@ SomethingExplosive 4.2.2
 Features
 --------
 * Built straight off the AOSP servers, 4.2.2_r1 source
-* SuperSU v1.25 and su binaries
+* Koush's Superuser baked-in
 * Busybox support
 * Wireless and USB tethering
 * SIP phone support

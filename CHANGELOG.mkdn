@@ -6,6 +6,13 @@ Source(s) can be found at http://github.com/SomethingExplosive
 CHANGELOG
 ---------
 
+### 1.0.2
+* common: added camera media prebuilts for all devices
+* common: added mako to builds
+* common: add GooManager to prebuilts
+* common: add GooManager update support
+* common: add koush's Superuser (Replace SuperSU)
+
 ### 1.0.1
 * common: add missing 4.2.2 repositories (now fully building from 4.2.2 source)
 * common: add maguro to builds
