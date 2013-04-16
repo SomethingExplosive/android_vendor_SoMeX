@@ -12,6 +12,7 @@ CHANGELOG
 * common: add GooManager to prebuilts
 * common: add GooManager update support
 * common: add koush's Superuser (Replace SuperSU)
+* common: update APNs
 
 ### 1.0.1
 * common: add missing 4.2.2 repositories (now fully building from 4.2.2 source)

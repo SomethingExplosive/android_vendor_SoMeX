@@ -4,13 +4,19 @@ SomethingExplosive 4.2.2
 Features
 --------
 * Built straight off the AOSP servers, 4.2.2_r1 source
-* Koush's Superuser baked-in
-* Busybox support
+* Superuser baked-in (koush)
+* Busybox from source
 * Wireless and USB tethering
 * SIP phone support
-* Customized/Cleaned Home screen
+* Customized/Cleaned Home screen (something15525)
 * Extended Power Menu (CyanogenMod)
 * Customized QuickSettings Toggles (WiFi and Bluetooth) (something15525)
 * 720p video recording (grouper)
 * Stock AOSP Email
+* Source built AOSP kernel (something15525)
 * Lean and Mean!
+
+What I'm working on
+-------------------
+* Source-built AOSP kernel (something15525)
+
