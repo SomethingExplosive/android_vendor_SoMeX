@@ -8,15 +8,17 @@ Features
 * Busybox from source
 * Wireless and USB tethering
 * SIP phone support
-* Customized/Cleaned Home screen (something15525)
+* Customized/Cleaned Home screen (SoMeX)
 * Extended Power Menu (CyanogenMod)
-* Customized QuickSettings Toggles (WiFi and Bluetooth) (something15525)
+* Customized QuickSettings Toggles (WiFi and Bluetooth) (SoMeX)
 * 720p video recording (grouper)
 * Stock AOSP Email
-* Source built AOSP kernel (something15525)
+* Source built AOSP kernel (SoMeX)
 * Lean and Mean!
 
 What I'm working on
 -------------------
-* Source-built AOSP kernel (something15525)
-
+* Source-built AOSP kernel (SoMeX)
+* T9 Dialer
+* Cyanogenmod MMS Features (Quick Reply, Mark as Read)
+* Some more QuickSettings toggles (Sync, Data, Orientation Lock)

@@ -7,6 +7,7 @@ CHANGELOG
 ---------
 
 ### 1.0.2
+* common: added odexed builds as an options
 * common: added camera media prebuilts for all devices
 * common: added mako to builds
 * common: add GooManager to prebuilts
