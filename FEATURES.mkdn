@@ -13,7 +13,6 @@ Features
 * Customized QuickSettings Toggles (WiFi and Bluetooth) (SoMeX)
 * 720p video recording (grouper)
 * Stock AOSP Email
-* Source built AOSP kernel (SoMeX)
 * Lean and Mean!
 
 What I'm working on
