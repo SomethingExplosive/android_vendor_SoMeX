@@ -77,7 +77,7 @@ BUILD_VERSION = $(PRODUCT_VERSION_MAJOR).$(PRODUCT_VERSION_MINOR).$(PRODUCT_VERS
 # Set MOD and ROM versions, goo.im stuff
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.modversion=SomethingExplosive-$(BUILD_VERSION) \
-    ro.romversion=$(BUILD_VERSION)
+    ro.romversion=$(BUILD_VERSION) \
     ro.goo.developerid=something15525 \
     ro.goo.rom=SoMeX \
     ro.goo.version=$(shell date +%s)
