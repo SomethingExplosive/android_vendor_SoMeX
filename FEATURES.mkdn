@@ -21,3 +21,4 @@ What I'm working on
 * T9 Dialer
 * Cyanogenmod MMS Features (Quick Reply, Mark as Read)
 * Some more QuickSettings toggles (Sync, Data, Orientation Lock)
+* Add more functionality to the Calculator app
