@@ -6,6 +6,9 @@ Source(s) can be found at http://github.com/SomethingExplosive
 CHANGELOG
 ---------
 
+### 1.0.3
+* common: update to android-4.2.2_r1.2
+
 ### 1.0.2
 * common: added odexed builds as an options
 * common: added camera media prebuilts for all devices

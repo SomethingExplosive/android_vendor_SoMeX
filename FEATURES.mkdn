@@ -3,7 +3,7 @@ SomethingExplosive 4.2.2
 
 Features
 --------
-* Built straight off the AOSP servers, 4.2.2_r1 source
+* Built straight off the AOSP servers, 4.2.2_r1.2 source
 * Superuser baked-in (koush)
 * Busybox from source
 * Wireless and USB tethering
@@ -17,6 +17,7 @@ Features
 
 What I'm working on
 -------------------
+* Integrate AOSP gesture keyboard
 * Source-built AOSP kernel (SoMeX)
 * T9 Dialer
 * Cyanogenmod MMS Features (Quick Reply, Mark as Read)
