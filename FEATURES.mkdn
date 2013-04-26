@@ -46,7 +46,7 @@ What I'm working on
     <td>Orientation Lock (QS)</td><td>dad9e9dad25f77cdd20030d4253ba78cf8054680</td><td>SoMeX</td><td>Finished</td><td>Incomplete</td>
   </tr>
   <tr>
-    <td>Functionality (Calculator)</td><td>N/A</td><td>CyanogenMod</td><td>Not Started</td><td>Incomplete</td>
+    <td>Functionality (Calculator)</td><td>8a43328a413a4c2f0a2e9f8dfcc68d553fd1267f<br>e1ae142f5bdd955389a6fe4c89129094a50303a0<br>2c75c35683354cf05c6885e5335b7dbd8ae5e87d<br>3b7421f10ba3de625eedc25f1b6eefc70c3aa25d</td><td>CyanogenMod</td><td>Started</td><td>Incomplete</td>
   </tr>
   <tr>
     <td>Swipe to switch (QS)</td><td>6bbe7b78b9cd97d83dd4fb9726e3c6e4bc0207eb</td><td>CyanogenMod</td><td>Started</td><td>Incomplete</td>
