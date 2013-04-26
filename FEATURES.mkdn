@@ -17,9 +17,38 @@ Features
 
 What I'm working on
 -------------------
-* Integrate AOSP gesture keyboard
-* Source-built AOSP kernel (SoMeX)
-* T9 Dialer
-* Cyanogenmod MMS Features (Quick Reply, Mark as Read)
-* Some more QuickSettings toggles (Sync, Data, Orientation Lock)
-* Add more functionality to the Calculator app
+<table>
+  <tr>
+    <th>Feature</th><th>Commit?</th><th>Credit</th><th>Status</th><th>Testing</td>
+  </tr>
+  <tr>
+    <td>Integrate gesture keyboard</td><td>N/A</td><td>AOSP</td><td>Not Started</td><td>Incomplete</td>
+  </tr>
+  <tr>
+    <td>Source-built kernel</td><td>N/A</td><td>AOSP</td><td>Not Started</td><td>Incomplete</td>
+  </tr>
+  <tr>
+    <td>T9 Dialer</td><td>N/A</td><td>CyanogenMod</td><td>Not Started</td><td>Incomplete</td>
+  </tr>
+  <tr>
+    <td>Quick Reply (MMS)</td><td>N/A</td><td>CyanogenMod</td><td>Not Started</td><td>Incomplete</td>
+  </tr>
+  <tr>
+    <td>Mark as Read (MMS)</td><td>N/A</td><td>CyanogenMod</td><td>Not Started</td><td>Incomplete</td>
+  </tr>
+  <tr>
+    <td>Sync Toggle (QS)</td><td>N/A</td><td>CyanogenMod</td><td>Not Started</td><td>Incomplete</td>
+  </td>
+  <tr>
+    <td>Data Toggle (QS)</td><td>N/A</td><td>CyanogenMod</td><td>Not Started</td><td>Incomplete</td>
+  </tr>
+  <tr>
+    <td>Orientation Lock (QS)</td><td>dad9e9dad25f77cdd20030d4253ba78cf8054680</td><td>SoMeX</td><td>Finished</td><td>Incomplete</td>
+  </tr>
+  <tr>
+    <td>Functionality (Calculator)</td><td>N/A</td><td>CyanogenMod</td><td>Not Started</td><td>Incomplete</td>
+  </tr>
+  <tr>
+    <td>Swipe to switch (QS)</td><td>6bbe7b78b9cd97d83dd4fb9726e3c6e4bc0207eb</td><td>CyanogenMod</td><td>Started</td><td>Incomplete</td>
+  </tr>
+</table>
