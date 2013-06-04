@@ -24,7 +24,7 @@ $(call inherit-product, vendor/SoMeX/config/common_full_tablet_wifionly.mk)
 $(call inherit-product, device/samsung/manta/full_manta.mk)
 
 #Set build fingerprint / ID / Product name etc.
-PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=mantaray BUILD_DISPLAY_ID=JDQ39E BUILD_FINGERPRINT=google/mantaray/manta:4.2.2/JDQ39E/573038:user/release-keys PRIVATE_BUILD_DESC="mantaray-user 4.2.2 JDQ39E 573038 release-keys"
+PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=mantaray BUILD_DISPLAY_ID=JDQ39E BUILD_FINGERPRINT="google/mantaray/manta:4.2.2/JDQ39E/573038:user/release-keys" PRIVATE_BUILD_DESC="mantaray-user 4.2.2 JDQ39E 573038 release-keys"
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := manta
