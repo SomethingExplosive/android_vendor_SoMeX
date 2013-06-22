@@ -65,6 +65,7 @@ PRODUCT_PACKAGES += \
 
 # Common SoMeX overlay
 PRODUCT_PACKAGE_OVERLAYS += vendor/SoMeX/overlay/common
+PRODUCT_PACKAGE_OVERLAYS += vendor/SoMeX/overlay/dictionaries
 
 # Common SoMeX ROM version
 PRODUCT_VERSION_MAJOR = 1
