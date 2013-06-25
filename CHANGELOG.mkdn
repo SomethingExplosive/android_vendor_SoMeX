@@ -8,6 +8,8 @@ CHANGELOG
 
 ### 1.0.3
 * common: update to android-4.2.2_r1.2
+* SoMeX: add dictionaries and gesture keyboard support (CM)
+* frameworks: add PrivacyGuard support (incognito mode) (cyanogen)
 
 ### 1.0.2
 * common: added odexed builds as an options

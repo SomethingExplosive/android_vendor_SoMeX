@@ -8,6 +8,7 @@ Features
 * Busybox from source
 * Wireless and USB tethering
 * SIP phone support
+* Gesture keyboard support
 * Customized/Cleaned Home screen (SoMeX)
 * Extended Power Menu (CyanogenMod)
 * Customized QuickSettings Toggles (WiFi and Bluetooth) (SoMeX)
@@ -22,7 +23,7 @@ What I'm working on
     <th>Feature</th><th>Commit?</th><th>Credit</th><th>Status</th><th>Testing</td>
   </tr>
   <tr>
-    <td>Integrate gesture keyboard</td><td>N/A</td><td>AOSP</td><td>Not Started</td><td>Incomplete</td>
+    <td>Integrate gesture keyboard</td><td>f8931aa078 (SoMeX)</td><td>AOSP</td><td>Completed</td><td>Completed</td>
   </tr>
   <tr>
     <td>Source-built kernel</td><td>N/A</td><td>AOSP</td><td>Not Started</td><td>Incomplete</td>
@@ -50,5 +51,8 @@ What I'm working on
   </tr>
   <tr>
     <td>Swipe to switch (QS)</td><td>6bbe7b78b9 (CM)</td><td>CyanogenMod</td><td>Started</td><td>Incomplete</td>
+  </tr>
+  <tr>
+    <td>PrivacyGuard</td><td>d6df4422b0 (SoMeX)<br>3868ffe962 (SoMeX)</td><td>Started</td><td>Incomplete</td>
   </tr>
 </table>
