@@ -5,15 +5,17 @@ Features
 --------
 * Built straight off the AOSP servers, 4.2.2_r1.2 source
 * Superuser baked-in (koush)
-* Busybox from source
-* Wireless and USB tethering
-* SIP phone support
-* Gesture keyboard support
+* Busybox from source (CM)
+* Wireless and USB tethering (CM)
+* SIP phone support (CM)
+* Gesture keyboard support (SoMeX)
+* SMS Security - Limit amount of outgoing SMS messages per 15 min (lithid)
+* PrivacyGuard - Prevent applications from accessing personal data (cyanogen)
 * Customized/Cleaned Home screen (SoMeX)
 * Extended Power Menu (CyanogenMod)
 * Customized QuickSettings Toggles (WiFi and Bluetooth) (SoMeX)
-* 720p video recording (grouper)
-* Stock AOSP Email
+* 720p video recording (grouper) (CM)
+* Stock AOSP Email app included (SoMeX)
 * Lean and Mean!
 
 What I'm working on
@@ -53,6 +55,10 @@ What I'm working on
     <td>Swipe to switch (QS)</td><td>6bbe7b78b9 (CM)</td><td>CyanogenMod</td><td>Started</td><td>Incomplete</td>
   </tr>
   <tr>
-    <td>PrivacyGuard</td><td>d6df4422b0 (SoMeX)<br>3868ffe962 (SoMeX)</td><td>Started</td><td>Incomplete</td>
+    <td>PrivacyGuard</td><td>734f6e0481 (SoMeX)<br>8af3fad8a6 (SoMeX)<br>d6df4422b0 (SoMeX)<br>3868ffe962 (SoMeX)<br>753be80b1c (SoMeX)<br>0ec56d81bf (SoMeX)</td><td>cyanogen</td><td>Completed</td><td>Completed</td>
   </tr>
+  <tr>
+    <td>SMS Security</td><td>1c461145f1 (SoMeX)<br>845c550bed (SoMeX)<br>59a206a743 (SoMeX)</td><td>lithid</td><td>Completed</td><td>Completed</td>
+  </tr>
+
 </table>
