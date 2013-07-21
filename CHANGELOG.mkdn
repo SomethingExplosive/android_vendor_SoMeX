@@ -6,11 +6,16 @@ Source(s) can be found at http://github.com/SomethingExplosive
 CHANGELOG
 ---------
 
-### 1.0.3
+### 1.1.0
 * common: update to android-4.2.2_r1.2
 * SoMeX: add dictionaries and gesture keyboard support (CM)
 * common: add PrivacyGuard support (incognito mode) (cyanogen)
+* settings: add PrivacyGuard manager (slimroms)
 * common: add SMS Security support (lithid)
+* phone/contacts: add T9 dialer and landscape dialer functionality
+* phone: Make going to call log after call optional (CM)
+* libcore: patch BOTH master-key security exploits! (AOSP)
+* phone: add transparency to incall screen (fitsnugly)
 
 ### 1.0.2
 * common: added odexed builds as an options

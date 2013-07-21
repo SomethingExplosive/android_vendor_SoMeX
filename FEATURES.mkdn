@@ -3,17 +3,19 @@ SomethingExplosive 4.2.2
 
 Features
 --------
-* Built straight off the AOSP servers, 4.2.2_r1.2 source
+* Built straight off the AOSP/SoMeX source, based off 4.2.2_r1.2
+* Patched for both master-key security exploits.
 * Superuser baked-in (koush)
 * Busybox from source (CM)
 * Wireless and USB tethering (CM)
 * SIP phone support (CM)
 * Gesture keyboard support (SoMeX)
 * SMS Security - Limit amount of outgoing SMS messages per 15 min (lithid)
-* PrivacyGuard - Prevent applications from accessing personal data (cyanogen)
+* PrivacyGuard - Prevent applications from accessing personal data (cyanogen/slimroms)
+* T9 Dialer - Search for contacts from phone dialpad (CM/Danesh)
 * Customized/Cleaned Home screen (SoMeX)
-* Extended Power Menu (CyanogenMod)
-* Customized QuickSettings Toggles (WiFi and Bluetooth) (SoMeX)
+* Extended Power Menu (DvTonder)
+* Customized QuickSettings Toggles (WiFi and Bluetooth) (something15525)
 * 720p video recording (grouper) (CM)
 * Stock AOSP Email app included (SoMeX)
 * Lean and Mean!
@@ -46,13 +48,13 @@ What I'm working on
     <td>Data Toggle (QS)</td><td>N/A</td><td>CyanogenMod</td><td>Not Started</td><td>Incomplete</td>
   </tr>
   <tr>
-    <td>Orientation Lock (QS)</td><td>dad9e9dad2 (SoMeX)</td><td>SoMeX</td><td>Reverted</td><td>Failure</td>
+    <td>Orientation Lock (QS)</td><td>dad9e9dad2 (SoMeX)</td><td>SoMeX</td><td>Reverted (Stalled)</td><td>Failure</td>
   </tr>
   <tr>
-    <td>Functionality (Calculator)</td><td>bf41e8e344 (SoMeX)<br>0e063eae34 (SoMeX)<br>e5983998d5 (SoMeX)</td><td>CyanogenMod</td><td>Started</td><td>Incomplete</td>
+    <td>Functionality (Calculator)</td><td>bf41e8e344 (SoMeX)<br>0e063eae34 (SoMeX)<br>e5983998d5 (SoMeX)</td><td>CyanogenMod</td><td>Reverted (Stalled)</td><td>Incomplete</td>
   </tr>
   <tr>
-    <td>Swipe to switch (QS)</td><td>6bbe7b78b9 (CM)</td><td>CyanogenMod</td><td>Started</td><td>Incomplete</td>
+    <td>Swipe to switch (QS)</td><td>6bbe7b78b9 (CM)</td><td>CyanogenMod</td><td>Started (Stalled)</td><td>Incomplete</td>
   </tr>
   <tr>
     <td>PrivacyGuard</td><td>734f6e0481 (SoMeX)<br>8af3fad8a6 (SoMeX)<br>d6df4422b0 (SoMeX)<br>3868ffe962 (SoMeX)<br>753be80b1c (SoMeX)<br>0ec56d81bf (SoMeX)</td><td>cyanogen</td><td>Completed</td><td>Completed</td>
