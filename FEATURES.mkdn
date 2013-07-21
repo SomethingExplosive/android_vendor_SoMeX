@@ -24,43 +24,43 @@ What I'm working on
 -------------------
 <table>
   <tr>
-    <th>Feature</th><th>Commit?</th><th>Credit</th><th>Status</th><th>Testing</td>
+    <th>Feature</th><th>Repo</th><th>Commit?</th><th>Credit</th><th>Status</th><th>Testing</td>
   </tr>
   <tr>
-    <td>Integrate gesture keyboard</td><td>f8931aa078 (SoMeX)</td><td>AOSP</td><td>Completed</td><td>Completed</td>
+    <td>Integrate gesture keyboard</td><td>SoMeX</td><td>f8931aa078</td><td>AOSP</td><td>Completed</td><td>Completed</td>
   </tr>
   <tr>
-    <td>Source-built kernel</td><td>N/A</td><td>AOSP</td><td>Not Started</td><td>Incomplete</td>
+    <td>SoMeX kernel</td><td>Depends</td><td>N/A</td><td>AOSP</td><td>Not Started</td><td>Incomplete</td>
   </tr>
   <tr>
-    <td>T9 Dialer</td><td>N/A</td><td>CyanogenMod</td><td>Not Started</td><td>Incomplete</td>
+    <td>T9 Dialer</td><td>Phone<br>Contacts</td><td>d555f21ad1<br>b5f105d21a</td><td>CyanogenMod</td><td>Completed</td><td>Completed</td>
   </tr>
   <tr>
-    <td>Quick Reply (MMS)</td><td>N/A</td><td>CyanogenMod</td><td>Not Started</td><td>Incomplete</td>
+    <td>Quick Reply</td><td>Mms</td><td>N/A</td><td>CyanogenMod</td><td>Not Started</td><td>Incomplete</td>
   </tr>
   <tr>
-    <td>Mark as Read (MMS)</td><td>N/A</td><td>CyanogenMod</td><td>Not Started</td><td>Incomplete</td>
+    <td>Mark as Read</td><td>Mms</td><td>N/A</td><td>CyanogenMod</td><td>Not Started</td><td>Incomplete</td>
   </tr>
   <tr>
-    <td>Sync Toggle (QS)</td><td>N/A</td><td>CyanogenMod</td><td>Not Started</td><td>Incomplete</td>
+    <td>Sync Toggle</td><td>frameworks</td><td>N/A</td><td>CyanogenMod</td><td>Not Started</td><td>Incomplete</td>
   </td>
   <tr>
-    <td>Data Toggle (QS)</td><td>N/A</td><td>CyanogenMod</td><td>Not Started</td><td>Incomplete</td>
+    <td>Data Toggle</td><td>frameworks</td><td>N/A</td><td>CyanogenMod</td><td>Not Started</td><td>Incomplete</td>
   </tr>
   <tr>
-    <td>Orientation Lock (QS)</td><td>dad9e9dad2 (SoMeX)</td><td>SoMeX</td><td>Reverted (Stalled)</td><td>Failure</td>
+    <td>Orientation Lock</td><td>frameworks</td><td>dad9e9dad2</td><td>SoMeX</td><td>Reverted (Stalled)</td><td>Failure</td>
   </tr>
   <tr>
-    <td>Functionality (Calculator)</td><td>bf41e8e344 (SoMeX)<br>0e063eae34 (SoMeX)<br>e5983998d5 (SoMeX)</td><td>CyanogenMod</td><td>Reverted (Stalled)</td><td>Incomplete</td>
+    <td>Add Functionality</td><td>Calculator</td><td>bf41e8e344<br>0e063eae34<br>e5983998d5</td><td>CyanogenMod</td><td>Reverted (Stalled)</td><td>Incomplete</td>
   </tr>
   <tr>
-    <td>Swipe to switch (QS)</td><td>6bbe7b78b9 (CM)</td><td>CyanogenMod</td><td>Started (Stalled)</td><td>Incomplete</td>
+    <td>Swipe to switch</td><td>frameworks</td><td>6bbe7b78b9 (CM)</td><td>CyanogenMod</td><td>Started (Stalled)</td><td>Incomplete</td>
   </tr>
   <tr>
-    <td>PrivacyGuard</td><td>734f6e0481 (SoMeX)<br>8af3fad8a6 (SoMeX)<br>d6df4422b0 (SoMeX)<br>3868ffe962 (SoMeX)<br>753be80b1c (SoMeX)<br>0ec56d81bf (SoMeX)</td><td>cyanogen</td><td>Completed</td><td>Completed</td>
+    <td>PrivacyGuard</td><td>frameworks<br>Settings</td><td>3868ffe962<br>d6df4422b0<br>8af3fad8a6<br>734f6e0481<br>ffae1c1b17<br>5be4bde2bb<br>9630932547<br>d9b1c64e99<br>c84a556af7<br>0ec56d81bf<br>753be80b1c<br>560416446c<br>b9980c12c5<br>4bfde18601<br>748f39eb85</td><td>cyanogen<br>slimroms</td><td>Completed</td><td>Completed</td>
   </tr>
   <tr>
-    <td>SMS Security</td><td>1c461145f1 (SoMeX)<br>845c550bed (SoMeX)<br>59a206a743 (SoMeX)</td><td>lithid</td><td>Completed</td><td>Completed</td>
+    <td>SMS Security</td><td>Settings</td><td>1c461145f1<br>845c550bed<br>59a206a743</td><td>lithid</td><td>Completed</td><td>Completed</td>
   </tr>
 
 </table>
