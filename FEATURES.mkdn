@@ -4,6 +4,7 @@ SomethingExplosive 4.2.2
 Features
 --------
 * Built straight off the AOSP/SoMeX source, based off 4.2.2_r1.2
+* Source-built SoMeX kernel! (AOSP)
 * Patched for both master-key security exploits.
 * Superuser baked-in (koush)
 * Busybox from source (CM)

@@ -8,6 +8,7 @@ CHANGELOG
 
 ### 1.1.1
 * frameworks_native: fix performance issue with heapgrowthlimit size
+* SoMeX-kernel: now building from SoMeX kernel sources!
 
 ### 1.1.0
 * common: update to android-4.2.2_r1.2
