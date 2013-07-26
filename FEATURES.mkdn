@@ -31,7 +31,7 @@ What I'm working on
     <td>Integrate gesture keyboard</td><td>SoMeX</td><td>f8931aa078</td><td>AOSP</td><td>Completed</td><td>Completed</td>
   </tr>
   <tr>
-    <td>SoMeX kernel</td><td>Depends</td><td>N/A</td><td>AOSP</td><td>Not Started</td><td>Incomplete</td>
+    <td>SoMeX kernel</td><td>Depends</td><td>N/A</td><td>AOSP/SoMeX</td><td>Completed</td><td>Incomplete</td>
   </tr>
   <tr>
     <td>T9 Dialer</td><td>Phone<br>Contacts</td><td>d555f21ad1<br>b5f105d21a</td><td>CyanogenMod</td><td>Completed</td><td>Completed</td>
