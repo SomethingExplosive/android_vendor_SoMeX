@@ -1,9 +1,9 @@
-SomethingExplosive 4.2.2
-========================
+SomethingExplosive 4.3
+======================
 
 Features
 --------
-* Built straight off the AOSP/SoMeX source, based off 4.2.2_r1.2
+* Built straight off the AOSP/SoMeX source, based off 4.3_r2.1
 * Source-built SoMeX kernel! (AOSP)
 * Patched for both master-key security exploits.
 * Superuser baked-in (koush)

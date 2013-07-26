@@ -69,7 +69,7 @@ PRODUCT_PACKAGE_OVERLAYS += vendor/SoMeX/overlay/dictionaries
 
 # Common SoMeX ROM version
 PRODUCT_VERSION_MAJOR = 1
-PRODUCT_VERSION_MINOR = 1
+PRODUCT_VERSION_MINOR = 2
 PRODUCT_VERSION_MAINTENANCE = 0
 
 # Assemble SoMeX build version
