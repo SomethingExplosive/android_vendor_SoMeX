@@ -13,7 +13,7 @@
 # limitations under the License.
 
 #
-# This file is the build configuration for a full SomethingExplosive
+# This file is the build configuration for a AOSP/SomethingExplosive
 # build for toro hardware.
 #
 
@@ -21,7 +21,7 @@
 $(call inherit-product, vendor/SoMeX/config/common_full_phone.mk)
 
 # Inherit from those products
-$(call inherit-product, device/samsung/toro/full_toro.mk)
+$(call inherit-product, device/samsung/toro/aosp_toro.mk)
 
 # Copy over toro files
 PRODUCT_COPY_FILES += \

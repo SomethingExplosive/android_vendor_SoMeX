@@ -13,7 +13,7 @@
 # limitations under the License.
 
 #
-# This file is the build configuration for a full SomethingExplosive
+# This file is the build configuration for an AOSP/SomethingExplosive
 # build for grouper hardware.
 #
 
@@ -21,7 +21,7 @@
 $(call inherit-product, vendor/SoMeX/config/common_full_tablet_wifionly.mk)
 
 # Inherit from those products
-$(call inherit-product, device/asus/grouper/full_grouper.mk)
+$(call inherit-product, device/asus/grouper/aosp_grouper.mk)
 
 # Copy needed grouper files
 PRODUCT_COPY_FILES += \

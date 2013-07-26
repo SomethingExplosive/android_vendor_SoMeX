@@ -13,7 +13,7 @@
 # limitations under the License.
 
 #
-# This file is the build configuration for a full SomethingExplosive
+# This file is the build configuration for a AOSP/SomethingExplosive
 # build for tilapia hardware.
 #
 
@@ -24,7 +24,7 @@ $(call inherit-product, vendor/SoMeX/config/common_full_tablet_wifionly.mk)
 $(call inherit-product, vendor/SoMeX/config/gsm.mk)
 
 # Inherit from those products
-$(call inherit-product, device/asus/tilapia/full_tilapia.mk)
+$(call inherit-product, device/asus/tilapia/aosp_tilapia.mk)
 
 # Copy needed tilapia files
 # This still needs to be added

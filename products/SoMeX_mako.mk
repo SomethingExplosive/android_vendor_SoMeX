@@ -13,7 +13,7 @@
 # limitations under the License.
 
 #
-# This file is the build configuration for a full SomethingExplosive
+# This file is the build configuration for a AOSP/SomethingExplosive
 # build for mako hardware.
 #
 
@@ -24,7 +24,7 @@ $(call inherit-product, vendor/SoMeX/config/gsm.mk)
 $(call inherit-product, vendor/SoMeX/config/common_full_phone.mk)
 
 # Inherit from those products
-$(call inherit-product, device/lge/mako/full_mako.mk)
+$(call inherit-product, device/lge/mako/aosp_mako.mk)
 
 # mako overrides
 PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=occam BUILD_DISPLAY_ID=JDQ39E BUILD_FINGERPRINT="google/occam/mako:4.2.2/JDQ39E/573038:user/release-keys" PRIVATE_BUILD_DESC="occam-user 4.2.2 JDQ39E 573038 release-keys"

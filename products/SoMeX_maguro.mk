@@ -13,7 +13,7 @@
 # limitations under the License.
 
 #
-# This file is the build configuration for a full SomethingExplosive
+# This file is the build configuration for a AOSP/SomethingExplosive
 # build for maguro hardware.
 #
 
@@ -21,7 +21,7 @@
 $(call inherit-product, vendor/SoMeX/config/common_full_phone.mk)
 
 # Inherit from those products
-$(call inherit-product, device/samsung/maguro/full_maguro.mk)
+$(call inherit-product, device/samsung/maguro/aosp_maguro.mk)
 
 # Copy over maguro files
 PRODUCT_COPY_FILES += \
