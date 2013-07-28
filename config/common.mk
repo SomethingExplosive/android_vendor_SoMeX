@@ -30,6 +30,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.com.android.dateformat=MM-dd-yyyy \
     ro.com.android.dataroaming=false
 
+# SoMeX-specific init file
+PRODUCT_COPY_FILES += \
+    vendor/SoMeX/prebuilt/common/etc/init.local.rc:root/init.somex.rc
+
 # Enable SIP+VoIP on all targets
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.software.sip.voip.xml:system/etc/permissions/android.software.sip.voip.xml
