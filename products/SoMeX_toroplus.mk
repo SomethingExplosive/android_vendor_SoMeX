@@ -31,7 +31,7 @@ PRODUCT_COPY_FILES += \
     device/samsung/toroplus/vold.fstab:system/etc/vold.fstab
 
 # toroplus overrides
-PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=mysidspr BUILD_DISPLAY_ID=JDQ39E BUILD_FINGERPRINT="samsung/mysidspr/toroplus:4.2.2/JDQ39E/573038:user/release-keys" PRIVATE_BUILD_DESC="mysidspr-user 4.2.2 JDQ39E 573038 release-keys"
+PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=mysidspr BUILD_DISPLAY_ID=JSS15J BUILD_FINGERPRINT="samsung/mysidspr/toroplus:4.3/JSS15J/737497:user/release-keys" PRIVATE_BUILD_DESC="mysidspr-user 4.3 JSS15J 737497 release-keys"
 
 # Set those variables here to overwrite the inherited values.
 PRODUCT_NAME := SoMeX_toroplus
