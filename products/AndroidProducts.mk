@@ -17,10 +17,11 @@
 #
 
 PRODUCT_MAKEFILES := \
+    $(LOCAL_DIR)/SoMeX_flo.mk \
     $(LOCAL_DIR)/SoMeX_grouper.mk \
-    $(LOCAL_DIR)/SoMeX_tilapia.mk \
-    $(LOCAL_DIR)/SoMeX_toro.mk \
-    $(LOCAL_DIR)/SoMeX_toroplus.mk \
     $(LOCAL_DIR)/SoMeX_maguro.mk \
     $(LOCAL_DIR)/SoMeX_mako.mk \
-    $(LOCAL_DIR)/SoMeX_manta.mk
+    $(LOCAL_DIR)/SoMeX_manta.mk \
+    $(LOCAL_DIR)/SoMeX_tilapia.mk \
+    $(LOCAL_DIR)/SoMeX_toro.mk \
+    $(LOCAL_DIR)/SoMeX_toroplus.mk
