@@ -13,7 +13,7 @@ Features
 * Gesture keyboard support (SoMeX)
 * SMS Security - Limit amount of outgoing SMS messages per 15 min (lithid)
 * PrivacyGuard - Prevent applications from accessing personal data (cyanogen/slimroms)
-* T9 Dialer - Search for contacts from phone dialpad (CM/Danesh)
+* Official T9 Dialer - Search for contacts from phone dialpad (Google)
 * Customized/Cleaned Home screen (SoMeX)
 * Extended Power Menu (DvTonder)
 * Customized QuickSettings Toggles (WiFi and Bluetooth) (something15525)
