@@ -6,6 +6,9 @@ Source(s) can be found at http://github.com/SomethingExplosive
 CHANGELOG
 ---------
 
+### 1.2.1
+* build: Remove AOSP Calendar from builds
+
 ### 1.2.0
 * common: update to android-4.3_r2.1
 
