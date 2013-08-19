@@ -23,10 +23,6 @@ $(call inherit-product, vendor/SoMeX/config/common_full_tablet_wifionly.mk)
 # Inherit from those products
 $(call inherit-product, device/asus/grouper/aosp_grouper.mk)
 
-# Copy needed grouper files
-PRODUCT_COPY_FILES += \
-     device/asus/grouper/vold.fstab:system/etc/vold.fstab
-
 # Grouper overrides
 PRODUCT_PROPERTY_OVERRIDES += \
      ro.camera.res=5MP
