@@ -23,10 +23,6 @@ $(call inherit-product, vendor/SoMeX/config/common_full_phone.mk)
 # Inherit from those products
 $(call inherit-product, device/samsung/toro/aosp_toro.mk)
 
-# Copy over toro files
-PRODUCT_COPY_FILES += \
-    device/samsung/toro/vold.fstab:system/etc/vold.fstab
-
 # toro overrides
 PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=mysid BUILD_DISPLAY_ID=JSS15J BUILD_FINGERPRINT="google/mysid/toro:4.3/JSS15J/737497:user/release-keys" PRIVATE_BUILD_DESC="mysid-user 4.3 JSS15J 737497 release-keys"
 
