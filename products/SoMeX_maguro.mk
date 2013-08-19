@@ -23,10 +23,6 @@ $(call inherit-product, vendor/SoMeX/config/common_full_phone.mk)
 # Inherit from those products
 $(call inherit-product, device/samsung/maguro/aosp_maguro.mk)
 
-# Copy over maguro files
-PRODUCT_COPY_FILES += \
-    device/samsung/maguro/vold.fstab:system/etc/vold.fstab
-
 # maguro overrides
 PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=yakju BUILD_DISPLAY_ID=JSS15J BUILD_FINGERPRINT="google/yakju/maguro:4.3/JSS15J/737497:user/release-keys" PRIVATE_BUILD_DESC="yakju-user 4.3 JSS15J 737497 release-keys"
 
