@@ -26,11 +26,6 @@ $(call inherit-product, vendor/SoMeX/config/gsm.mk)
 # Inherit from those products
 $(call inherit-product, device/asus/tilapia/aosp_tilapia.mk)
 
-# Copy needed tilapia files
-# This still needs to be added
-#PRODUCT_COPY_FILES += \
-#    device/asus/tilapia/vold.fstab:system/etc/vold.fstab
-
 # Tilapia overrides
 PRODUCT_PROPERTY_OVERRIDES += \
      ro.camera.res=5MP
