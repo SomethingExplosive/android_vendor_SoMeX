@@ -26,10 +26,6 @@ $(call inherit-product, vendor/SoMeX/config/cdma.mk)
 # Inherit from those products
 $(call inherit-product, device/samsung/toroplus/aosp_toroplus.mk)
 
-# Copy over toroplus files
-PRODUCT_COPY_FILES += \
-    device/samsung/toroplus/vold.fstab:system/etc/vold.fstab
-
 # toroplus overrides
 PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=mysidspr BUILD_DISPLAY_ID=JSS15J BUILD_FINGERPRINT="samsung/mysidspr/toroplus:4.3/JSS15J/737497:user/release-keys" PRIVATE_BUILD_DESC="mysidspr-user 4.3 JSS15J 737497 release-keys"
 
