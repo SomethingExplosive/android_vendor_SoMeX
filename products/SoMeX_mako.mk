@@ -27,7 +27,7 @@ $(call inherit-product, vendor/SoMeX/config/common_full_phone.mk)
 $(call inherit-product, device/lge/mako/aosp_mako.mk)
 
 # mako overrides
-PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=occam BUILD_DISPLAY_ID=JSS15J BUILD_FINGERPRINT="google/occam/mako:4.3/JSS15J/737497:user/release-keys" PRIVATE_BUILD_DESC="occam-user 4.3 JSS15J 737497 release-keys"
+PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=occam BUILD_DISPLAY_ID=JSS15Q BUILD_FINGERPRINT="google/occam/mako:4.3/JSS15Q/737497:user/release-keys" PRIVATE_BUILD_DESC="occam-user 4.3 JSS15Q 737497 release-keys"
 
 # Set those variables here to overwrite the inherited values.
 PRODUCT_NAME := SoMeX_mako

@@ -23,7 +23,7 @@ $(call inherit-product, vendor/SoMeX/config/common_full_tablet_wifionly.mk)
 # Inherit from those products
 $(call inherit-product, device/asus/flo/aosp_flo.mk)
 
-PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=razor BUILD_DISPLAY_ID=JSS15J BUILD_FINGERPRINT="google/razor/flo:4.3/JSS15J/748593:user/release-keys" PRIVATE_BUILD_DESC="razor-user 4.3 JSS15J 748593 release-keys"
+PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=razor BUILD_DISPLAY_ID=JSS15Q BUILD_FINGERPRINT="google/razor/flo:4.3/JSS15Q/748593:user/release-keys" PRIVATE_BUILD_DESC="razor-user 4.3 JSS15Q 748593 release-keys"
 
 # Set correct product information
 PRODUCT_NAME := SoMeX_flo

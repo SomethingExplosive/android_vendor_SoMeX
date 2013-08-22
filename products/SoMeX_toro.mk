@@ -24,7 +24,7 @@ $(call inherit-product, vendor/SoMeX/config/common_full_phone.mk)
 $(call inherit-product, device/samsung/toro/aosp_toro.mk)
 
 # toro overrides
-PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=mysid BUILD_DISPLAY_ID=JSS15J BUILD_FINGERPRINT="google/mysid/toro:4.3/JSS15J/737497:user/release-keys" PRIVATE_BUILD_DESC="mysid-user 4.3 JSS15J 737497 release-keys"
+PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=mysid BUILD_DISPLAY_ID=JSS15Q BUILD_FINGERPRINT="google/mysid/toro:4.3/JSS15Q/737497:user/release-keys" PRIVATE_BUILD_DESC="mysid-user 4.3 JSS15Q 737497 release-keys"
 
 # Set those variables here to overwrite the inherited values.
 PRODUCT_NAME := SoMeX_toro
