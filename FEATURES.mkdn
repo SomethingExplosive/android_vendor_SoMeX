@@ -3,7 +3,7 @@ SomethingExplosive 4.3
 
 Features
 --------
-* Built straight off the AOSP/SoMeX source, based off 4.3_r2.1
+* Built straight off the AOSP/SoMeX source, based off 4.3_r2.2
 * Enabled Bluetooth LE support for all Nexus devices
 * Source-built SoMeX kernel! (AOSP)
 * Patched for both master-key security exploits.
