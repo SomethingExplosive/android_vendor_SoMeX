@@ -6,10 +6,17 @@ Source(s) can be found at http://github.com/SomethingExplosive
 CHANGELOG
 ---------
 
+### 1.2.2
+* common: update to android-4.3_r2.2
+
 ### 1.2.1
 * build: Remove AOSP Calendar from builds
-* common: Enable BLE for disabled Nexus devices
-* grouper/tilapia: fix Storage menu force-closes
+* common: Enable BLE for tuna/grouper-based devices
+* tuna: fix OTG for all tuna-based devices
+* grouper: fix OTG for grouper based devices
+* grouper/tilapia: fix Storage menu force-closes (fattire)
+* LatinIME: latinime: Add "more" keys to ALL the keys (cyanogen)
+* LatinIME: Enable more keys for top row on tablets (cyanogen)
 
 ### 1.2.0
 * common: update to android-4.3_r2.1
