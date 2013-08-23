@@ -27,7 +27,7 @@ $(call inherit-product, device/samsung/maguro/aosp_maguro.mk)
 PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=yakju BUILD_DISPLAY_ID=JSS15Q BUILD_FINGERPRINT="google/yakju/maguro:4.3/JSS15Q/737497:user/release-keys" PRIVATE_BUILD_DESC="yakju-user 4.3 JSS15Q 737497 release-keys"
 
 # Enable Torch
-PRODUCT_PACKAGES +=
+PRODUCT_PACKAGES += \
 	Torch
 
 # Set those variables here to overwrite the inherited values.
