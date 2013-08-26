@@ -8,6 +8,9 @@ CHANGELOG
 
 ### 1.2.2
 * common: update to android-4.3_r2.2
+* common: enable NTFS support in kernel
+* tuna: improve color display in kernel (cm)
+* tuna: correct compass behavior
 
 ### 1.2.1
 * build: Remove AOSP Calendar from builds
