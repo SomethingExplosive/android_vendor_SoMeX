@@ -6,7 +6,7 @@ Features
 * Built straight off the AOSP/SoMeX source, based off 4.3_r2.2
 * Enabled Bluetooth LE support for all Nexus devices
 * Source-built SoMeX kernel! (AOSP)
-* Patched for both master-key security exploits.
+* NTFS Support built-in (cm)
 * Superuser baked-in (koush)
 * Busybox from source (CM)
 * Wireless and USB tethering (CM)
@@ -33,9 +33,6 @@ What I'm working on
   </tr>
   <tr>
     <td>SoMeX kernel</td><td>Depends</td><td>N/A</td><td>AOSP/SoMeX</td><td>Completed</td><td>Incomplete</td>
-  </tr>
-  <tr>
-    <td>T9 Dialer</td><td>Phone<br>Contacts</td><td>d555f21ad1<br>b5f105d21a</td><td>CyanogenMod</td><td>Completed</td><td>Completed</td>
   </tr>
   <tr>
     <td>Quick Reply</td><td>Mms</td><td>N/A</td><td>CyanogenMod</td><td>Not Started</td><td>Incomplete</td>
