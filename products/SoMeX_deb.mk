@@ -13,30 +13,25 @@
 # limitations under the License.
 
 #
-# This file is the build configuration for a AOSP/SomethingExplosive
-# build for mako hardware.
+# This file is the build configuration for an AOSP/SomethingExplosive
+# build for deb hardware.
 #
+
+# Inherit commons
+$(call inherit-product, vendor/SoMeX/config/common_full_tablet_wifionly.mk)
 
 # Inherit common GSM settings
 $(call inherit-product, vendor/SoMeX/config/gsm.mk)
 
-# Inherit common phone settings
-$(call inherit-product, vendor/SoMeX/config/common_full_phone.mk)
-
 # Inherit from those products
-$(call inherit-product, device/lge/mako/aosp_mako.mk)
+$(call inherit-product, device/asus/deb/aosp_deb.mk)
 
-# mako overrides
-PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=occam BUILD_DISPLAY_ID=JSS15Q BUILD_FINGERPRINT="google/occam/mako:4.3/JSS15Q/737497:user/release-keys" PRIVATE_BUILD_DESC="occam-user 4.3 JSS15Q 737497 release-keys"
+PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=razor BUILD_DISPLAY_ID=JSS15Q BUILD_FINGERPRINT="google/razor/deb:4.3/JSS15Q/748593:user/release-keys" PRIVATE_BUILD_DESC="razor-user 4.3 JSS15Q 748593 release-keys"
 
-# Enable Torch
-PRODUCT_PACKAGES += \
-        Torch
-
-# Set those variables here to overwrite the inherited values.
-PRODUCT_NAME := SoMeX_mako
-PRODUCT_DEVICE := mako
+# Set correct product information
+PRODUCT_NAME := SoMeX_deb
+PRODUCT_DEVICE := deb
 PRODUCT_BRAND := Google
-PRODUCT_MODEL := Nexus 4
-PRODUCT_MANUFACTURER := LGE
+PRODUCT_MODEL := Nexus 7
+PRODUCT_MANUFACTURER := Asus
 PRODUCT_RESTRICT_VENDOR_FILES := false

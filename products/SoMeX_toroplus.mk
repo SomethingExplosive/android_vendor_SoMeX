@@ -29,6 +29,10 @@ $(call inherit-product, device/samsung/toroplus/aosp_toroplus.mk)
 # toroplus overrides
 PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=mysidspr BUILD_DISPLAY_ID=JSS15Q BUILD_FINGERPRINT="samsung/mysidspr/toroplus:4.3/JSS15Q/737497:user/release-keys" PRIVATE_BUILD_DESC="mysidspr-user 4.3 JSS15Q 737497 release-keys"
 
+# Enable Torch
+PRODUCT_PACKAGES += \
+        Torch
+
 # Set those variables here to overwrite the inherited values.
 PRODUCT_NAME := SoMeX_toroplus
 PRODUCT_DEVICE := toroplus
