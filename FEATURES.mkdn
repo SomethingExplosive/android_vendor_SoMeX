@@ -6,6 +6,7 @@ Features
 * Built straight off the AOSP/SoMeX source, based off 4.3_r2.2
 * Enabled Bluetooth LE support for all Nexus devices
 * Source-built SoMeX kernel! (AOSP)
+* CM Torch app (CM)
 * NTFS Support built-in (cm)
 * Superuser baked-in (koush)
 * Busybox from source (CM)

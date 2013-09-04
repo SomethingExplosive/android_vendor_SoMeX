@@ -6,6 +6,12 @@ Source(s) can be found at http://github.com/SomethingExplosive
 CHANGELOG
 ---------
 
+### 1.2.3
+* common: add deb to builds! (Nexus 7 2013 LTE)
+* common: enable module loading on SoMeX-kernel
+* common: add CM Torch app
+* Email: fix bug causing occasional crashes on boot (sunwayforever)
+
 ### 1.2.2
 * common: update to android-4.3_r2.2
 * common: enable NTFS support in kernel
