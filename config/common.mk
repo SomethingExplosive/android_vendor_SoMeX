@@ -40,7 +40,7 @@ PRODUCT_COPY_FILES += \
     vendor/SoMeX/prebuilt/common/media/LMprec_508.emd:system/media/LMprec_508.emd \
     vendor/SoMeX/prebuilt/common/media/PFFprec_600.emd:system/media/PFFprec_600.emd
 
-# Required SoMeX packages
+# Required packages
 PRODUCT_PACKAGES += \
     Camera \
     LatinIME \
@@ -48,7 +48,7 @@ PRODUCT_PACKAGES += \
     su \
     busybox
 
-# Optional SoMeX packages
+# Optional packages
 PRODUCT_PACKAGES += \
     VideoEditor \
     VoiceDialer \
@@ -62,6 +62,10 @@ PRODUCT_PACKAGES += \
     VisualizationWallpapers \
     PhaseBeam \
     GooManager
+
+# SoMeX packages
+PRODUCT_PACKAGES += \
+    SoMeXPaper
 
 # Common SoMeX overlay
 PRODUCT_PACKAGE_OVERLAYS += vendor/SoMeX/overlay/common

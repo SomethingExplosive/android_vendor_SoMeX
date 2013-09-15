@@ -11,6 +11,7 @@ CHANGELOG
 * common: enable module loading on SoMeX-kernel
 * common: add CM Torch app
 * Email: fix bug causing occasional crashes on boot (sunwayforever)
+* common: add custom SoMeX wallpapers (derived from cm)
 
 ### 1.2.2
 * common: update to android-4.3_r2.2
