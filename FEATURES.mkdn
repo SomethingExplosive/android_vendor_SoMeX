@@ -3,7 +3,7 @@ SomethingExplosive 4.3
 
 Features
 --------
-* Built straight off the AOSP/SoMeX source, based off 4.3_r3
+* Built straight off the AOSP/SoMeX source, based off android-4.3_r3.1
 * Enabled Bluetooth LE support for all Nexus devices
 * Source-built SoMeX kernel! (AOSP)
 * CM Torch app (CM)
@@ -14,7 +14,7 @@ Features
 * Wireless and USB tethering (CM)
 * SIP phone support (CM)
 * Gesture keyboard support (SoMeX)
-* SMS Security - Limit amount of outgoing SMS messages per 15 min (lithid)
+* SMS Security - Modify the amount of outgoing SMS messages per 15 min (CM/lithid)
 * PrivacyGuard - Prevent applications from accessing personal data (cyanogen/slimroms)
 * Official T9 Dialer - Search for contacts from phone dialpad (Google)
 * Customized/Cleaned Home screen (SoMeX)
@@ -34,7 +34,7 @@ What I'm working on
     <td>Integrate gesture keyboard</td><td>SoMeX</td><td>f8931aa078</td><td>AOSP</td><td>Completed</td><td>Completed</td>
   </tr>
   <tr>
-    <td>SoMeX kernel</td><td>Depends</td><td>N/A</td><td>AOSP/SoMeX</td><td>Completed</td><td>Incomplete</td>
+    <td>SoMeX kernel</td><td>Depends</td><td>N/A</td><td>AOSP/SoMeX</td><td>Completed</td><td>Completed</td>
   </tr>
   <tr>
     <td>Quick Reply</td><td>Mms</td><td>N/A</td><td>CyanogenMod</td><td>Not Started</td><td>Incomplete</td>
@@ -47,9 +47,6 @@ What I'm working on
   </td>
   <tr>
     <td>Data Toggle</td><td>frameworks</td><td>N/A</td><td>CyanogenMod</td><td>Not Started</td><td>Incomplete</td>
-  </tr>
-  <tr>
-    <td>Orientation Lock</td><td>frameworks</td><td>dad9e9dad2</td><td>SoMeX</td><td>Reverted (Stalled)</td><td>Failure</td>
   </tr>
   <tr>
     <td>Add Functionality</td><td>Calculator</td><td>bf41e8e344<br>0e063eae34<br>e5983998d5</td><td>CyanogenMod</td><td>Reverted (Stalled)</td><td>Incomplete</td>

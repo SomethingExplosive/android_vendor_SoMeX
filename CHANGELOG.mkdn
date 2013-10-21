@@ -7,7 +7,8 @@ CHANGELOG
 ---------
 
 ### 1.2.5
-* common: update to android-4.3_r3
+* common: update to android-4.3_r3.1
+* tilapia/grouper: fix camera not working in apps
 
 ### 1.2.3
 * common: add deb to builds! (Nexus 7 2013 LTE)
