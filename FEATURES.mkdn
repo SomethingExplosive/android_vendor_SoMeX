@@ -3,7 +3,7 @@ SomethingExplosive 4.3
 
 Features
 --------
-* Built straight off the AOSP/SoMeX source, based off android-4.3_r3.1
+* Built straight off the AOSP/SoMeX source, based off android-4.3.1_r1
 * Enabled Bluetooth LE support for all Nexus devices
 * Source-built SoMeX kernel! (AOSP)
 * CM Torch app (CM)

@@ -7,7 +7,7 @@ CHANGELOG
 ---------
 
 ### 1.2.5
-* common: update to android-4.3_r3.1
+* common: update to android-4.3.1_r1
 * tilapia/grouper: fix camera not working in apps
 
 ### 1.2.3
