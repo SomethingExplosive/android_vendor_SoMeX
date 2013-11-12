@@ -73,9 +73,9 @@ PRODUCT_PACKAGE_OVERLAYS += vendor/SoMeX/overlay/common
 PRODUCT_PACKAGE_OVERLAYS += vendor/SoMeX/overlay/dictionaries
 
 # Common SoMeX ROM version
-PRODUCT_VERSION_MAJOR = 1
-PRODUCT_VERSION_MINOR = 2
-PRODUCT_VERSION_MAINTENANCE = 5
+PRODUCT_VERSION_MAJOR = 2
+PRODUCT_VERSION_MINOR = 0
+PRODUCT_VERSION_MAINTENANCE = 0
 
 # Assemble SoMeX build version
 BUILD_VERSION = $(PRODUCT_VERSION_MAJOR).$(PRODUCT_VERSION_MINOR).$(PRODUCT_VERSION_MAINTENANCE)
@@ -86,7 +86,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.romversion=$(BUILD_VERSION) \
     ro.goo.developerid=something15525 \
     ro.goo.rom=SoMeX \
-    ro.goo.version=$(shell date +%s)
+    ro.goo.version=$(BUILD_VERSION)
 
 # Default ringtones
 PRODUCT_PROPERTY_OVERRIDES += \

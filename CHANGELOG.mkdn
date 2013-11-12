@@ -6,6 +6,9 @@ Source(s) can be found at http://github.com/SomethingExplosive
 CHANGELOG
 ---------
 
+### 2.0.0
+* common: update to android-4.4_r1
+
 ### 1.2.5
 * common: update to android-4.3.1_r1
 * tilapia/grouper: fix camera not working in apps
