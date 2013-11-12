@@ -20,6 +20,7 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/SoMeX_deb.mk \
     $(LOCAL_DIR)/SoMeX_flo.mk \
     $(LOCAL_DIR)/SoMeX_grouper.mk \
+    $(LOCAL_DIR)/SoMeX_hammerhead.mk \
     $(LOCAL_DIR)/SoMeX_maguro.mk \
     $(LOCAL_DIR)/SoMeX_mako.mk \
     $(LOCAL_DIR)/SoMeX_manta.mk \

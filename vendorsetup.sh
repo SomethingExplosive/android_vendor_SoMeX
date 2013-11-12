@@ -1,6 +1,7 @@
 add_lunch_combo SoMeX_deb-userdebug
 add_lunch_combo SoMeX_flo-userdebug
 add_lunch_combo SoMeX_grouper-userdebug
+add_lunch_combo SoMeX_hammerhead-userdebug
 add_lunch_combo SoMeX_maguro-userdebug
 add_lunch_combo SoMeX_mako-userdebug
 add_lunch_combo SoMeX_manta-userdebug
@@ -10,6 +11,7 @@ add_lunch_combo SoMeX_toroplus-userdebug
 add_lunch_combo SoMeX_deb-user
 add_lunch_combo SoMeX_flo-user
 add_lunch_combo SoMeX_grouper-user
+add_lunch_combo SoMeX_hammerhead-user
 add_lunch_combo SoMeX_maguro-user
 add_lunch_combo SoMeX_mako-user
 add_lunch_combo SoMeX_manta-user
