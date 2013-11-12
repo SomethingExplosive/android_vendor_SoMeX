@@ -1,4 +1,3 @@
-
 # Copyright (C) 2013 The SomethingExplosive Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -13,15 +12,18 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 #
-# This file provides the build settings/overrides/overlays for phone
-# devices.
+# This file provides the apns for all data-enabled devices.
 #
 
-# Inherit SoMeX common file
-$(call inherit-product, vendor/SoMeX/config/common.mk)
+# World APN list
+PRODUCT_COPY_FILES += \
+    vendor/cm/prebuilt/common/etc/apns-conf.xml:system/etc/apns-conf.xml
 
-# Bring in all video files
-$(call inherit-product, frameworks/base/data/videos/VideoPackage2.mk)
+# World SPN overrides list
+PRODUCT_COPY_FILES += \
+    vendor/cm/prebuilt/common/etc/spn-conf.xml:system/etc/spn-conf.xml
 
-# Bring in apns
-$(call inherit-product, vendor/SoMeX/config/telephony.mk)
+# SIM Toolkit
+PRODUCT_PACKAGES += \
+    Stk
+
