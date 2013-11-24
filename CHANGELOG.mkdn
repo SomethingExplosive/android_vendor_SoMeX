@@ -7,7 +7,8 @@ CHANGELOG
 ---------
 
 ### 2.0.0
-* common: update to android-4.4_r1
+* common: update to android-4.4_r1.2
+* devices: enable translucent lockscreen
 
 ### 1.2.5
 * common: update to android-4.3.1_r1
