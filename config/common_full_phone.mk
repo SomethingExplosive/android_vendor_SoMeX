@@ -20,6 +20,9 @@
 # Inherit SoMeX common file
 $(call inherit-product, vendor/SoMeX/config/common.mk)
 
+# Bring in audio files
+$(call inherit-product, vendor/SoMeX/config/audio.mk)
+
 # Bring in all video files
 $(call inherit-product, frameworks/base/data/videos/VideoPackage2.mk)
 

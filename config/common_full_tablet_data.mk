@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 # This file provides the build settings/overrides/overlays for a
-# wifi tablet device.
+# data-enabled tablet device.
 #
 
 # Inherit SoMeX common file
@@ -25,3 +25,6 @@ $(call inherit-product, vendor/SoMeX/config/audio.mk)
 
 # Bring in all video files
 $(call inherit-product, frameworks/base/data/videos/VideoPackage2.mk)
+
+# Bring in telephony
+$(call inherit-product, vendor/SoMeX/config/telephony.mk)

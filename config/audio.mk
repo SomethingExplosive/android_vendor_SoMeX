@@ -1,4 +1,3 @@
-
 # Copyright (C) 2013 The SomethingExplosive Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -13,15 +12,8 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 #
-# This file provides the build settings/overrides/overlays for a
-# wifi tablet device.
+# This file provides the audio for all devices.
 #
 
-# Inherit SoMeX common file
-$(call inherit-product, vendor/SoMeX/config/common.mk)
-
-# Bring in audio files
-$(call inherit-product, vendor/SoMeX/config/audio.mk)
-
-# Bring in all video files
-$(call inherit-product, frameworks/base/data/videos/VideoPackage2.mk)
+# Bring in KitKat audio files
+$(call inherit-product, frameworks/base/data/sounds/AudioPackage12_48.mk)
