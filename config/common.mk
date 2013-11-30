@@ -64,9 +64,10 @@ PRODUCT_PACKAGES += \
     PhaseBeam \
     GooManager
 
-# SoMeX packages
+# SoMeX/CM packages
 PRODUCT_PACKAGES += \
-    SoMeXPaper
+    SoMeXPaper \
+    VoicePlus
 
 # Common SoMeX overlay
 PRODUCT_PACKAGE_OVERLAYS += vendor/SoMeX/overlay/common
