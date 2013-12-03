@@ -26,7 +26,11 @@ $(call inherit-product, vendor/SoMeX/config/gsm.mk)
 # Inherit from those products
 $(call inherit-product, device/asus/deb/aosp_deb.mk)
 
-PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=razor BUILD_DISPLAY_ID=JSS15Q BUILD_FINGERPRINT="google/razor/deb:4.3/JSS15Q/748593:user/release-keys" PRIVATE_BUILD_DESC="razor-user 4.3 JSS15Q 748593 release-keys"
+# Deb overrides
+PRODUCT_BUILD_PROP_OVERRIDES += \
+     PRODUCT_NAME=razor \
+     BUILD_FINGERPRINT=google/razor/deb:4.4/KRT16S/920375:user/release-keys \
+     PRIVATE_BUILD_DESC="razor-user 4.4 KRT16S 920375 release-keys"
 
 # Set correct product information
 PRODUCT_NAME := SoMeX_deb

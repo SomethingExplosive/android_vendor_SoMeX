@@ -27,7 +27,10 @@ $(call inherit-product, device/asus/grouper/aosp_grouper.mk)
 PRODUCT_PROPERTY_OVERRIDES += \
      ro.camera.res=5MP
 
-PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=nakasi BUILD_DISPLAY_ID=JSS15Q BUILD_FINGERPRINT="google/nakasi/grouper:4.3/JSS15Q/737497:user/release-keys" PRIVATE_BUILD_DESC="nakasi-user 4.3 JSS15Q 737497 release-keys"
+PRODUCT_BUILD_PROP_OVERRIDES += \
+     PRODUCT_NAME=nakasi \
+     BUILD_FINGERPRINT=google/nakasi/grouper:4.4/KRT16S/573038:user/release-keys \
+     PRIVATE_BUILD_DESC="nakasi-user 4.4 KRT16S 573038 release-keys"
 
 # Set correct product information
 PRODUCT_NAME := SoMeX_grouper

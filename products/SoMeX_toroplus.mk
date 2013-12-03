@@ -27,7 +27,10 @@ $(call inherit-product, vendor/SoMeX/config/cdma.mk)
 $(call inherit-product, device/samsung/toroplus/aosp_toroplus.mk)
 
 # toroplus overrides
-PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=mysidspr BUILD_DISPLAY_ID=JSS15Q BUILD_FINGERPRINT="samsung/mysidspr/toroplus:4.3/JSS15Q/737497:user/release-keys" PRIVATE_BUILD_DESC="mysidspr-user 4.3 JSS15Q 737497 release-keys"
+PRODUCT_BUILD_PROP_OVERRIDES += \
+     PRODUCT_NAME=mysidspr \
+     BUILD_FINGERPRINT=samsung/mysidspr/toroplus:4.3/JWR67B/L700GJ04:user/release-keys \
+     PRIVATE_BUILD_DESC="mysidspr-user 4.3 JWR67B L700GJ04 release-keys"
 
 # Enable Torch
 PRODUCT_PACKAGES += \
