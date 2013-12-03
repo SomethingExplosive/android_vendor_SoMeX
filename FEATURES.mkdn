@@ -3,62 +3,29 @@ SomethingExplosive 4.4
 
 Features
 --------
-* Built straight off the AOSP/SoMeX source, based off android-4.4_r1.2
-* Enabled Bluetooth LE support for all Nexus devices
-* Source-built SoMeX kernel! (AOSP)
-* CM Torch app (CM)
-* Custom SoMeX wallpapers (derived from CM)
-* NTFS Support built-in (cm)
-* Superuser baked-in (koush)
-* Busybox from source (CM)
-* Wireless and USB tethering (CM)
-* SIP phone support (CM)
-* Gesture keyboard support (SoMeX)
-* SMS Security - Modify the amount of outgoing SMS messages per 15 min (CM/lithid)
-* PrivacyGuard - Prevent applications from accessing personal data (cyanogen/slimroms)
-* Official T9 Dialer - Search for contacts from phone dialpad (Google)
-* Customized/Cleaned Home screen (SoMeX)
-* Extended Power Menu (DvTonder)
-* Customized QuickSettings Toggles (WiFi and Bluetooth) (something15525)
-* 720p video recording (grouper) (CM)
-* Stock AOSP Email app included (SoMeX)
-* Lean and Mean!
+* Based off Android 4.4_r1.2
+* VoicePlus - Google Voice integration into any SMS app
+* Bluetooth LE - Support for lower energy Bluetooth devices
+* Source-built kernel - module loading support
+* Torch - Use your phone's LED as a flashlight 
+* Custom wallpapers - Pick them from the wallpapers menu!
+* NTFS Support - mount NTFS drives with an OTG cable
+* Koush's Superuser - Control root access with ease!
+* Busybox - helpful tools for terminal manipulation
+* Wireless and USB tethering - use your phone as your internet connection
+* SMS Security - Modify the amount of outgoing SMS messages allowed per 15 min
+* PrivacyGuard - Prevent applications from accessing personal data
+* Extended Power Menu - Reboot, Recovery, and Bootloader access from the power menu
+* Customized QuickSettings Toggles (WiFi and Bluetooth) - no more long press to toggle
 
-What I'm working on
--------------------
-<table>
-  <tr>
-    <th>Feature</th><th>Repo</th><th>Commit?</th><th>Credit</th><th>Status</th><th>Testing</td>
-  </tr>
-  <tr>
-    <td>Integrate gesture keyboard</td><td>SoMeX</td><td>f8931aa078</td><td>AOSP</td><td>Completed</td><td>Completed</td>
-  </tr>
-  <tr>
-    <td>SoMeX kernel</td><td>Depends</td><td>N/A</td><td>AOSP/SoMeX</td><td>Completed</td><td>Completed</td>
-  </tr>
-  <tr>
-    <td>Quick Reply</td><td>Mms</td><td>N/A</td><td>CyanogenMod</td><td>Not Started</td><td>Incomplete</td>
-  </tr>
-  <tr>
-    <td>Mark as Read</td><td>Mms</td><td>N/A</td><td>CyanogenMod</td><td>Not Started</td><td>Incomplete</td>
-  </tr>
-  <tr>
-    <td>Sync Toggle</td><td>frameworks</td><td>N/A</td><td>CyanogenMod</td><td>Not Started</td><td>Incomplete</td>
-  </td>
-  <tr>
-    <td>Data Toggle</td><td>frameworks</td><td>N/A</td><td>CyanogenMod</td><td>Not Started</td><td>Incomplete</td>
-  </tr>
-  <tr>
-    <td>Add Functionality</td><td>Calculator</td><td>bf41e8e344<br>0e063eae34<br>e5983998d5</td><td>CyanogenMod</td><td>Reverted (Stalled)</td><td>Incomplete</td>
-  </tr>
-  <tr>
-    <td>Swipe to switch</td><td>frameworks</td><td>6bbe7b78b9 (CM)</td><td>CyanogenMod</td><td>Started (Stalled)</td><td>Incomplete</td>
-  </tr>
-  <tr>
-    <td>PrivacyGuard</td><td>frameworks<br>Settings</td><td>3868ffe962<br>d6df4422b0<br>8af3fad8a6<br>734f6e0481<br>ffae1c1b17<br>5be4bde2bb<br>9630932547<br>d9b1c64e99<br>c84a556af7<br>0ec56d81bf<br>753be80b1c<br>560416446c<br>b9980c12c5<br>4bfde18601<br>748f39eb85</td><td>cyanogen<br>slimroms</td><td>Completed</td><td>Completed</td>
-  </tr>
-  <tr>
-    <td>SMS Security</td><td>Settings</td><td>1c461145f1<br>845c550bed<br>59a206a743</td><td>lithid</td><td>Completed</td><td>Completed</td>
-  </tr>
+Features to add
+---------------
+* More QuickSettings Toggles - Data, Sync
 
-</table>
+Credit also goes to:
+---------------
+* CyanogenMod
+* SlimRoms
+* Google/AOSP
+* All the contributors of these projects!
+
