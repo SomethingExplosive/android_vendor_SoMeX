@@ -6,9 +6,13 @@ Source(s) can be found at http://github.com/SomethingExplosive
 CHANGELOG
 ---------
 
+### 2.0.2
+* common: add VoicePlus (CyanogenMod)
+
 ### 2.0.1
 * common: add hammerhead to builds! (Nexus 5)
 * SoMeX: add KitKat audio packages
+* Mms: fix ClassZeroActivity vulnerability: http://bit.ly/1cR18KR
 
 ### 2.0.0
 * common: update to android-4.4_r1.2
