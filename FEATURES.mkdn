@@ -1,9 +1,9 @@
-SomethingExplosive 4.4
-======================
+SomethingExplosive 4.4.2
+========================
 
 Features
 --------
-* Based off Android 4.4_r1.2
+* Based off Android 4.4.2_r1
 * VoicePlus - Google Voice integration into any SMS app
 * Bluetooth LE - Support for lower energy Bluetooth devices
 * Source-built kernel - module loading support

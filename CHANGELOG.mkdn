@@ -6,6 +6,9 @@ Source(s) can be found at http://github.com/SomethingExplosive
 CHANGELOG
 ---------
 
+### 2.0.3
+* common: update all the way to 4.4.2_r1
+
 ### 2.0.2
 * common: add VoicePlus (CyanogenMod)
 
