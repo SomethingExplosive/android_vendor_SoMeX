@@ -26,8 +26,8 @@ $(call inherit-product, device/asus/flo/aosp_flo.mk)
 # Flo overrides
 PRODUCT_BUILD_PROP_OVERRIDES += \
      PRODUCT_NAME=razor \
-     BUILD_FINGERPRINT=google/razor/flo:4.4/KRT16S/920375:user/release-keys \
-     PRIVATE_BUILD_DESC="razor-user 4.4 KRT16S 920375 release-keys"
+     BUILD_FINGERPRINT=google/razor/flo:4.4.2/KOT49H/937116:user/release-keys \
+     PRIVATE_BUILD_DESC="razor-user 4.4.2 KOT49H 937116 release-keys"
 
 # Set correct product information
 PRODUCT_NAME := SoMeX_flo

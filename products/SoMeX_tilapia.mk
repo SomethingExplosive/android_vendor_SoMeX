@@ -32,8 +32,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
      PRODUCT_NAME=nakasig \
-     BUILD_FINGERPRINT=google/nakasig/tilapia:4.4/KRT16S/920375:user/release-keys \
-     PRIVATE_BUILD_DESC="nakasig-user 4.4 KRT16S 920375 release-keys"
+     BUILD_FINGERPRINT=google/nakasig/tilapia:4.4.2/KOT49H/937116:user/release-keys \
+     PRIVATE_BUILD_DESC="nakasig-user 4.4.2 KOT49H 937116 release-keys"
 
 # Set correct product information
 PRODUCT_NAME := SoMeX_tilapia

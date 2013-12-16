@@ -26,8 +26,8 @@ $(call inherit-product, device/samsung/manta/aosp_manta.mk)
 # Manta overrides
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=mantaray \
-    BUILD_FINGERPRINT=google/mantaray/manta:4.4/KRT16S/920375:user/release-keys \
-    PRIVATE_BUILD_DESC="mantaray-user 4.4 KRT16S 920375 release-keys"
+    BUILD_FINGERPRINT=google/mantaray/manta:4.4.2/KOT49H/937116:user/release-keys \
+    PRIVATE_BUILD_DESC="mantaray-user 4.4.2 KOT49H 937116 release-keys"
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := manta

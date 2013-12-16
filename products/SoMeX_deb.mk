@@ -28,9 +28,9 @@ $(call inherit-product, device/asus/deb/aosp_deb.mk)
 
 # Deb overrides
 PRODUCT_BUILD_PROP_OVERRIDES += \
-     PRODUCT_NAME=razor \
-     BUILD_FINGERPRINT=google/razor/deb:4.4/KRT16S/920375:user/release-keys \
-     PRIVATE_BUILD_DESC="razor-user 4.4 KRT16S 920375 release-keys"
+     PRODUCT_NAME=razorg \
+     BUILD_FINGERPRINT=google/razorg/deb:4.4.2/KOT49H/937116:user/release-keys \
+     PRIVATE_BUILD_DESC="razorg-user 4.4.2 KOT49H 937116 release-keys"
 
 # Set correct product information
 PRODUCT_NAME := SoMeX_deb

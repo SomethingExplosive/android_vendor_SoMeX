@@ -29,8 +29,8 @@ $(call inherit-product, device/lge/mako/aosp_mako.mk)
 # mako overrides
 PRODUCT_BUILD_PROP_OVERRIDES += \
      PRODUCT_NAME=occam \
-     BUILD_FINGERPRINT=google/occam/mako:4.4/KRT16S/920375:user/release-keys \
-     PRIVATE_BUILD_DESC="occam-user 4.4 KRT16S 920375 release-keys"
+     BUILD_FINGERPRINT=google/occam/mako:4.4.2/KOT49H/937116:user/release-keys \
+     PRIVATE_BUILD_DESC="occam-user 4.4.2 KOT49H 937116 release-keys"
 
 # Enable Torch
 PRODUCT_PACKAGES += \
