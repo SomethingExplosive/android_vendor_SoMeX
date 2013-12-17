@@ -8,6 +8,8 @@ CHANGELOG
 
 ### 2.0.3
 * common: update all the way to 4.4.2_r1
+* SoMeXPaper: update wallpaper UI (CM)
+* framework: add clear recents button
 
 ### 2.0.2
 * common: add VoicePlus (CyanogenMod)

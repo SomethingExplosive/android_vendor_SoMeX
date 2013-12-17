@@ -17,10 +17,12 @@ Features
 * PrivacyGuard - Prevent applications from accessing personal data
 * Extended Power Menu - Reboot, Recovery, and Bootloader access from the power menu
 * Customized QuickSettings Toggles (WiFi and Bluetooth) - no more long press to toggle
+* Clear Recents Button - One button to clear everything in the recent apps display
 
 Features to add
 ---------------
 * More QuickSettings Toggles - Data, Sync
+* Add dismissable voicemail toggle
 
 Credit also goes to:
 ---------------
