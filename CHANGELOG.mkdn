@@ -6,6 +6,11 @@ Source(s) can be found at http://github.com/SomethingExplosive
 CHANGELOG
 ---------
 
+### 2.0.4
+* services/Telephony: make voicemail notifications dismissable
+* hammerhead: finally fix the Torch overlay
+* QuickSettings: add data toggle
+
 ### 2.0.3
 * common: update all the way to 4.4.2_r1
 * SoMeXPaper: update wallpaper UI (CM)
