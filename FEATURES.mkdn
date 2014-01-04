@@ -16,7 +16,7 @@ Features
 * SMS Security - Modify the amount of outgoing SMS messages allowed per 15 min
 * PrivacyGuard - Prevent applications from accessing personal data
 * Extended Power Menu - Reboot, Recovery, and Bootloader access from the power menu
-* Customized QuickSettings Toggles (WiFi, Bluetooth, Data) - click once to toggle!
+* Customized QuickSettings Toggles (WiFi, Bluetooth, Data, Location) - short click to toggle!
 * Clear Recents Button - One button to clear everything in the recent apps display
 
 Features to add

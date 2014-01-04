@@ -6,6 +6,11 @@ Source(s) can be found at http://github.com/SomethingExplosive
 CHANGELOG
 ---------
 
+### 2.0.5
+* Launcher3: allow for homescreen rotation (vendor/SoMeX overlay)
+* QuickSettings: short-click toggle for Location tile
+* SystemUI: Change no recent apps color to KK white
+
 ### 2.0.4
 * services/Telephony: make voicemail notifications dismissable
 * hammerhead: finally fix the Torch overlay
