@@ -6,6 +6,13 @@ Source(s) can be found at http://github.com/SomethingExplosive
 CHANGELOG
 ---------
 
+### 2.0.6
+* ClearRecents: Add touch feedback
+* Screenshots: Add quick delete option on notification
+* Settings/framework: PrivacyGuard fixes
+* Settings: Allow user to trigger a volume rescan
+* Settings: Add more options to SMS Message limit menu
+
 ### 2.0.5
 * Launcher3: allow for homescreen rotation (vendor/SoMeX overlay)
 * QuickSettings: short-click toggle for Location tile
