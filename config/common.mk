@@ -51,7 +51,6 @@ PRODUCT_PACKAGES += \
 # Optional packages
 PRODUCT_PACKAGES += \
     VideoEditor \
-    VoiceDialer \
     Basic \
     HoloSpiralWallpaper \
     MagicSmokeWallpapers \
@@ -60,22 +59,20 @@ PRODUCT_PACKAGES += \
     LiveWallpapers \
     LiveWallpapersPicker \
     VisualizationWallpapers \
-    PhaseBeam \
-    GooManager
+    PhaseBeam
 
 # SoMeX/CM packages
 PRODUCT_PACKAGES += \
-    SoMeXPaper \
-    VoicePlus
+    SoMeXPaper
 
 # Common SoMeX overlay
 PRODUCT_PACKAGE_OVERLAYS += vendor/SoMeX/overlay/common
 PRODUCT_PACKAGE_OVERLAYS += vendor/SoMeX/overlay/dictionaries
 
 # Common SoMeX ROM version
-PRODUCT_VERSION_MAJOR = 2
+PRODUCT_VERSION_MAJOR = 3
 PRODUCT_VERSION_MINOR = 0
-PRODUCT_VERSION_MAINTENANCE = 4
+PRODUCT_VERSION_MAINTENANCE = 0
 
 # Assemble SoMeX build version
 BUILD_VERSION = $(PRODUCT_VERSION_MAJOR).$(PRODUCT_VERSION_MINOR).$(PRODUCT_VERSION_MAINTENANCE)
