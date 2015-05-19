@@ -21,7 +21,7 @@
 $(call inherit-product, vendor/SoMeX/config/common_full_phone.mk)
 
 # Inherit from those products
-$(call inherit-product, device/lge/shamu/aosp_shamu.mk)
+$(call inherit-product, device/moto/shamu/aosp_shamu.mk)
 
 # hammerhead overrides
 PRODUCT_BUILD_PROP_OVERRIDES += \
