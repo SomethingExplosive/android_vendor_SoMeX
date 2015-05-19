@@ -23,7 +23,7 @@ $(call inherit-product, vendor/SoMeX/config/common_full_phone.mk)
 # Inherit from those products
 $(call inherit-product, device/moto/shamu/aosp_shamu.mk)
 
-# hammerhead overrides
+# shamu overrides
 PRODUCT_BUILD_PROP_OVERRIDES += \
      PRODUCT_NAME=shamu \
      BUILD_FINGERPRINT=google/shamu/shamu:5.0.1/LRX22C/1602158:user/release-keys \
@@ -34,7 +34,7 @@ PRODUCT_PACKAGES += \
         Torch
 
 # Set those variables here to overwrite the inherited values.
-PRODUCT_NAME := SoMeX_hammerhead
+PRODUCT_NAME := SoMeX_shamu
 PRODUCT_DEVICE := shamu
 PRODUCT_BRAND := Google
 PRODUCT_MODEL := Nexus 6
